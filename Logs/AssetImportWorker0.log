@@ -1,0 +1,1887 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.44f1 (101c91f3a8fb) revision 1055889'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 16296 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Lizbeth/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50032
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Lizbeth/My project
+C:/Users/Lizbeth/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3332]  Target information:
+
+Player connection [3332]  * "[IP] 10.33.24.75 [Port] 0 [Flags] 2 [Guid] 888482128 [EditorId] 888482128 [Version] 1048832 [Id] WindowsEditor(7,AVISPON-BLANCO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3332] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3332] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lizbeth/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8059 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007069 seconds.
+- Loaded All Assemblies, in  0.522 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 992ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.133 seconds
+Refreshing native plugins compatible for Editor in 2.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 2137ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (752ms)
+		LoadAssemblies (548ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (252ms)
+				TypeCache.ScanAssembly (233ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1016ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (828ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6576 unused Assets / (7.3 MB). Loaded Objects now: 7220.
+Memory consumption went from 174.7 MB to 167.3 MB.
+Total: 14.759100 ms (FindLiveObjects: 1.046500 ms CreateObjectMapping: 1.108000 ms MarkObjects: 6.999000 ms  DeleteObjects: 5.604300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 932.308773 seconds.
+  path: Assets/Backgrounds/hospital_7.asset
+  artifactKey: Guid(03ec35b7605a17b49b794018d095692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_7.asset using Guid(03ec35b7605a17b49b794018d095692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eafa6a7b8813a67b8a94b79db7761ef5') in 0.1141498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_66.asset
+  artifactKey: Guid(e7817e5d2b1ff6f4c92c5db72ae62613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_66.asset using Guid(e7817e5d2b1ff6f4c92c5db72ae62613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c707f05a7096558ee1e2dc3be7ac7e1') in 0.0119253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_2.asset
+  artifactKey: Guid(a1e3ae5460c738d4cafd726611c058ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_2.asset using Guid(a1e3ae5460c738d4cafd726611c058ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2090005323a56a5616dba524028a514d') in 0.0106499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Backgrounds/hospital_19.asset
+  artifactKey: Guid(3f64a0d765ceee1459b2acebfc3ee13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_19.asset using Guid(3f64a0d765ceee1459b2acebfc3ee13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75d7dd5b98dcb2cd4e70cb0801186d3a') in 0.0124296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/hospital_24.asset
+  artifactKey: Guid(eb55d7557fc4a824ba679add81208556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_24.asset using Guid(eb55d7557fc4a824ba679add81208556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ecd1991dd6764e715a24c43e3598176') in 0.020514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_14.asset
+  artifactKey: Guid(4ee81a72e76393d46951b1448ad845a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_14.asset using Guid(4ee81a72e76393d46951b1448ad845a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '867b7abe87d766def8ea7c1223e1314c') in 0.0104881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_26.asset
+  artifactKey: Guid(c0d42a634ac8b194a94e96d1f4669b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_26.asset using Guid(c0d42a634ac8b194a94e96d1f4669b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ae4d09d9118c907562796764ca36bc') in 0.0210121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_27.asset
+  artifactKey: Guid(447ec781b15a9744281cea8ae20caa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_27.asset using Guid(447ec781b15a9744281cea8ae20caa2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c427f32f5c59458237441fd560926e0') in 0.0245444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Backgrounds/hospital_62.asset
+  artifactKey: Guid(09ba4577b852deb4d992a15420090fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_62.asset using Guid(09ba4577b852deb4d992a15420090fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a2e32081d5c66e73dfec78a65d328f4') in 0.021167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_28.asset
+  artifactKey: Guid(658bb8184eaec2347b75ade8d347072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_28.asset using Guid(658bb8184eaec2347b75ade8d347072d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3410dc607f8426d87dd36b622f328caa') in 0.0029969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.192820 seconds.
+  path: Assets/Backgrounds/hospital_2.asset
+  artifactKey: Guid(a1e3ae5460c738d4cafd726611c058ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_2.asset using Guid(a1e3ae5460c738d4cafd726611c058ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12bf9c483645cd29240d4a118b2ebefe') in 0.0032471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_20.asset
+  artifactKey: Guid(6a8f605b10896ad4e94d8817b649ca60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_20.asset using Guid(6a8f605b10896ad4e94d8817b649ca60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab6d944f1d52d8ae9400bdedfff6089') in 0.0035812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_66.asset
+  artifactKey: Guid(e7817e5d2b1ff6f4c92c5db72ae62613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_66.asset using Guid(e7817e5d2b1ff6f4c92c5db72ae62613) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b60b229614bb3d5c0e2a3db5ff0ffaec') in 0.0033756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_68.asset
+  artifactKey: Guid(fe670a177df0416458dd3b2c6bace479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_68.asset using Guid(fe670a177df0416458dd3b2c6bace479) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdc401c75eb7bcfe0cd77b472a303b14') in 0.0032618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_19.asset
+  artifactKey: Guid(3f64a0d765ceee1459b2acebfc3ee13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_19.asset using Guid(3f64a0d765ceee1459b2acebfc3ee13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e862b9db82d1ad6e06697882456f6632') in 0.0033422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_17.asset
+  artifactKey: Guid(a227d6e380f6fb246afbf71f508e32df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_17.asset using Guid(a227d6e380f6fb246afbf71f508e32df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5982d9d9cb106a189fb3bff9f8c611e0') in 0.0028254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/hospital_10.asset
+  artifactKey: Guid(acd29cf864c51c64da2d723580c2ba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_10.asset using Guid(acd29cf864c51c64da2d723580c2ba62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32e89b246de43589ce40ccfc8017c84e') in 0.0029477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/hospital_41.asset
+  artifactKey: Guid(688514ceee85b7d4eb4421501a9b501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_41.asset using Guid(688514ceee85b7d4eb4421501a9b501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50c9b30e01daa0d7548229921281994e') in 0.0035819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/hospital_33.asset
+  artifactKey: Guid(2812b5beedfc39041b5f54f6959c3bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_33.asset using Guid(2812b5beedfc39041b5f54f6959c3bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd93260c6da141f9abd3192127e2c3b55') in 0.002771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_52.asset
+  artifactKey: Guid(981b11e9d33de144197fe0f6da577e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_52.asset using Guid(981b11e9d33de144197fe0f6da577e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e00d4b690db3123203ba268aa4e14bf') in 0.0029625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Backgrounds/hospital_31.asset
+  artifactKey: Guid(5fb0d86881f46434b92bf6771e69b9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_31.asset using Guid(5fb0d86881f46434b92bf6771e69b9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f8835c575fc0e3ca23b0569f809db9f') in 0.0029413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_37.asset
+  artifactKey: Guid(3c5faf0ac210eed47a26d0ac8327e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_37.asset using Guid(3c5faf0ac210eed47a26d0ac8327e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d5ca4a0ba2652c4343071f63eb4bf8e') in 0.0027181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_32.asset
+  artifactKey: Guid(8021efa4c251d424790b7efb181907ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_32.asset using Guid(8021efa4c251d424790b7efb181907ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df09c0939a58835581b65ab9fa7c7db2') in 0.0030453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_55.asset
+  artifactKey: Guid(bf11c6c548bdcd44aba8b4fe6a3954d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_55.asset using Guid(bf11c6c548bdcd44aba8b4fe6a3954d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d941630b8b8b4fcb93f3636efe5776f') in 0.0036612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_49.asset
+  artifactKey: Guid(18f8c55cf26f4204fb6b88fac58769c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_49.asset using Guid(18f8c55cf26f4204fb6b88fac58769c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c787f3283f80678a3bd1580bb123ad92') in 0.0031155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_44.asset
+  artifactKey: Guid(31cd0c68a2dd95f4ebf6b9de4663461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_44.asset using Guid(31cd0c68a2dd95f4ebf6b9de4663461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d82834e26b89761674fbbe1286b29db') in 0.0029529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.740751 seconds.
+  path: Assets/Backgrounds/hospital_71.asset
+  artifactKey: Guid(459bdd5b6e9be754cbe1349fcb2c3958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_71.asset using Guid(459bdd5b6e9be754cbe1349fcb2c3958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '186f96d56901f0f5cae517e96f4ff45d') in 0.0033667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/hospital_74.asset
+  artifactKey: Guid(4d43a9cc851b0c848a912cf8c2725dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_74.asset using Guid(4d43a9cc851b0c848a912cf8c2725dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283b769cdf332d70e51b4e52d1a7745e') in 0.0032657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_92.asset
+  artifactKey: Guid(37535d55684186e4f9a4ef2e25f86692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_92.asset using Guid(37535d55684186e4f9a4ef2e25f86692) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dad5e29486b135adeafb9ab4dfbdfd2') in 0.0032326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Backgrounds/hospital_94.asset
+  artifactKey: Guid(9ef235b7c0d31a64194fdf44940642c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_94.asset using Guid(9ef235b7c0d31a64194fdf44940642c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '159bb71e5a65cefa586d2bf99f784eea') in 0.0033384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_79.asset
+  artifactKey: Guid(1119da754a6992a4a83327309240f81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_79.asset using Guid(1119da754a6992a4a83327309240f81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5a641175fafc6a2c29819ec6f7e92b5') in 0.0028222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/hospital_87.asset
+  artifactKey: Guid(e74363762512ab343b029c761824cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_87.asset using Guid(e74363762512ab343b029c761824cc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c9f5a94e2f6aea1dd7bfd8343e59367') in 0.0034536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_85.asset
+  artifactKey: Guid(7d9d1d5a2730203418c18d0120882b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_85.asset using Guid(7d9d1d5a2730203418c18d0120882b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49ded38e1ab91a34dd6af574b2387501') in 0.0027859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.210041 seconds.
+  path: Assets/Backgrounds/hospital_99.asset
+  artifactKey: Guid(800f6571cd7f6b941a1daae8da8678ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_99.asset using Guid(800f6571cd7f6b941a1daae8da8678ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58bd9f2a37dad995c55587df9e2f8a81') in 0.0044235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_117.asset
+  artifactKey: Guid(b356e33858b80f04d82b4a4f9a1b2117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_117.asset using Guid(b356e33858b80f04d82b4a4f9a1b2117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fc4e1763a36953121d2bf1f09d288a9') in 0.0028906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/hospital_128.asset
+  artifactKey: Guid(afe201572e006d744b5f215052ca22ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_128.asset using Guid(afe201572e006d744b5f215052ca22ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a192c527a401d51278cb0cccacf3d40') in 0.0032586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_123.asset
+  artifactKey: Guid(c9929dfddf1b22e4db4cea2f9acdea13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_123.asset using Guid(c9929dfddf1b22e4db4cea2f9acdea13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3716249f294f98cc6e199114bd4ce9b6') in 0.0036876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_120.asset
+  artifactKey: Guid(7aa1c680a92cb6c4f9b4e72c12ef238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_120.asset using Guid(7aa1c680a92cb6c4f9b4e72c12ef238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d3823e0cc0b905281a0132801eea9d') in 0.0038558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_126.asset
+  artifactKey: Guid(8e0fa0ac13b38ed4684592b14970b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_126.asset using Guid(8e0fa0ac13b38ed4684592b14970b30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1117e1d05f2a21beb1357f8cc908ccde') in 0.0031352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_387.asset
+  artifactKey: Guid(f6368688f913a1442af9f1dd4af854e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_387.asset using Guid(f6368688f913a1442af9f1dd4af854e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3498bab80c85522d80136d2d26e3e27b') in 0.0028667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_396.asset
+  artifactKey: Guid(e9871081430d3d44f95d5815259b2235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_396.asset using Guid(e9871081430d3d44f95d5815259b2235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07bed925b460833b97b77d5e316ed3a3') in 0.0038415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_157.asset
+  artifactKey: Guid(acfcc60765884d346b169053fe07e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_157.asset using Guid(acfcc60765884d346b169053fe07e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6ca567e4e5366454bf50f9d2200d982') in 0.0028436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_419.asset
+  artifactKey: Guid(8cd9917f2da6bd14c89a496e86b7e5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_419.asset using Guid(8cd9917f2da6bd14c89a496e86b7e5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec41bb69d4954e73f12b68a7de8e1982') in 0.0028954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_409.asset
+  artifactKey: Guid(d666d9ad73902574f86795fab6c635db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_409.asset using Guid(d666d9ad73902574f86795fab6c635db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8f464c6091bc067cc38ebdabf8fcfc3') in 0.0031327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_416.asset
+  artifactKey: Guid(e956f8084cbf969419c3734ffe8a5f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_416.asset using Guid(e956f8084cbf969419c3734ffe8a5f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca6908acc8069e2d0c83318227fddf4f') in 0.0028785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_376.asset
+  artifactKey: Guid(0203d8dc8088cc24784fbd139b3af29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_376.asset using Guid(0203d8dc8088cc24784fbd139b3af29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '622ae7eddc50ba708c33c7f2536df62f') in 0.0031699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_386.asset
+  artifactKey: Guid(fb4385e844841844189e8c2428d82aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_386.asset using Guid(fb4385e844841844189e8c2428d82aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8685c6b3b7fc5b37b4e20872aa0b5a3') in 0.0030518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_385.asset
+  artifactKey: Guid(8627211773083a84aaa340ef28698928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_385.asset using Guid(8627211773083a84aaa340ef28698928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31491501ccdb1183a01443d44f0b0934') in 0.0030222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_377.asset
+  artifactKey: Guid(f117f67d00d1fea4a8914929e8690d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_377.asset using Guid(f117f67d00d1fea4a8914929e8690d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '899599456562de8f39ffb0981eaf4381') in 0.0031842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_414.asset
+  artifactKey: Guid(7e8eb401223e8f94a8882e8dabee9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_414.asset using Guid(7e8eb401223e8f94a8882e8dabee9bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f498d7b05ce302a5286a0044441c5065') in 0.0031011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_413.asset
+  artifactKey: Guid(598441f55273cdd4f8140bc4c7d779ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_413.asset using Guid(598441f55273cdd4f8140bc4c7d779ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '389440dc557025a2608a878ec1a39ac3') in 0.0036152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_378.asset
+  artifactKey: Guid(a00f5516325c68b4697418a97cc3a856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_378.asset using Guid(a00f5516325c68b4697418a97cc3a856) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c17e18c54efaa522a8c42fc25f9d88b') in 0.0029153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_105.asset
+  artifactKey: Guid(ee48a6ffe84287b42afe2ebb6c84a8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_105.asset using Guid(ee48a6ffe84287b42afe2ebb6c84a8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7fdf321e1d6f40bdc8b44216dbdb17e') in 0.0030365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_113.asset
+  artifactKey: Guid(b037673247d51ff4786207495ee7e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_113.asset using Guid(b037673247d51ff4786207495ee7e4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a745f8642555bf51c2ccd0743bdeb0d') in 0.002939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_167.asset
+  artifactKey: Guid(a0b19b707d943914a9749ebee38a4b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_167.asset using Guid(a0b19b707d943914a9749ebee38a4b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5569f7291439d1b54b1d4ba9fe983158') in 0.0027704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_164.asset
+  artifactKey: Guid(ccb43058835bc9e419df06e4ab7f547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_164.asset using Guid(ccb43058835bc9e419df06e4ab7f547e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '816e0808fe449b1e87f4ec06b06af2c0') in 0.0029635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_198.asset
+  artifactKey: Guid(0ce461da9da6be440b9419dabdd14819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_198.asset using Guid(0ce461da9da6be440b9419dabdd14819) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '838e228f382473485e8e3dacebe06ca5') in 0.0033686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_209.asset
+  artifactKey: Guid(65df30e377e9d1849bee3b978fb3b4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_209.asset using Guid(65df30e377e9d1849bee3b978fb3b4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e80526b6b0b17910d81ad3dc51a2d3a') in 0.0027992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_174.asset
+  artifactKey: Guid(d618cb6b7ff187b4b99af941b90cb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_174.asset using Guid(d618cb6b7ff187b4b99af941b90cb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb75ec675df1f67643a4d7114fe110a4') in 0.0034033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_189.asset
+  artifactKey: Guid(2ac37f340f40f1949b2da68e77a977d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_189.asset using Guid(2ac37f340f40f1949b2da68e77a977d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ea9c7197e086b7eced6e6fd82ffb47a') in 0.0029207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_172.asset
+  artifactKey: Guid(dce18badb5c87024c9a319a99559e639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_172.asset using Guid(dce18badb5c87024c9a319a99559e639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f532ad876ff0a527f35ef93e85af002') in 0.0037387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/hospital_208.asset
+  artifactKey: Guid(c4b5caea583fe9146a24f83c07346ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_208.asset using Guid(c4b5caea583fe9146a24f83c07346ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a4d71334a8d8e3b93254400b2aea3b3') in 0.0030554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_176.asset
+  artifactKey: Guid(8af152e2ec26189438112436ed34e635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_176.asset using Guid(8af152e2ec26189438112436ed34e635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef1c2f8ccbd5e99f58e07a5578c54b20') in 0.0030551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_165.asset
+  artifactKey: Guid(3ba961542140a3c4e9c8d5bbb4383305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_165.asset using Guid(3ba961542140a3c4e9c8d5bbb4383305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ca96b10014f27f43da2c6342347bb8e') in 0.0027598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_164.asset
+  artifactKey: Guid(b252dd89f099c93479b4247d1237044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_164.asset using Guid(b252dd89f099c93479b4247d1237044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0d7874f38938bd25b0480f1591d8a8c') in 0.0031611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_180.asset
+  artifactKey: Guid(194bba6c8c0cf1f41ad5c24718c0bd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_180.asset using Guid(194bba6c8c0cf1f41ad5c24718c0bd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '865fee18f6bebe571951859d8d6541a8') in 0.0030342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/hospital_202.asset
+  artifactKey: Guid(326ef865a712de641977228f1e1a3f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_202.asset using Guid(326ef865a712de641977228f1e1a3f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '380852429203f34fdf6473f96d4a4052') in 0.003097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_163.asset
+  artifactKey: Guid(c014ef745e8f0ed43b57780d7cd7d9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_163.asset using Guid(c014ef745e8f0ed43b57780d7cd7d9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4657114cd378bd5cbe03d163cdd9ede3') in 0.0034004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/hospital_214.asset
+  artifactKey: Guid(e80f32a5e1acae24db3ba81ab22e415a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_214.asset using Guid(e80f32a5e1acae24db3ba81ab22e415a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '672fecdff5e30dd1554176998a215795') in 0.0029424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_180.asset
+  artifactKey: Guid(f33ed18dce0ffb64a9d24c35d6005715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_180.asset using Guid(f33ed18dce0ffb64a9d24c35d6005715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8c30e4d117f9b3642fcdad695ab701d') in 0.0029539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_181.asset
+  artifactKey: Guid(93d247a1721460547b9e9d0a322d7667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_181.asset using Guid(93d247a1721460547b9e9d0a322d7667) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18cb47d41dd361320158c27a6be0f366') in 0.0028413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/hospital_226.asset
+  artifactKey: Guid(c250d6c15251c1c48a20107e12744be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_226.asset using Guid(c250d6c15251c1c48a20107e12744be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a71adff9952c98b8149fcdd82fa7ddb9') in 0.0031037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/hospital_201.asset
+  artifactKey: Guid(41dc3abb3ecffe345becfb7a05e8c4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_201.asset using Guid(41dc3abb3ecffe345becfb7a05e8c4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '930d92e6c7c6a7c1e811302091f181ff') in 0.0037408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_162.asset
+  artifactKey: Guid(4816904bd0d58f44f9894b26f1d7b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_162.asset using Guid(4816904bd0d58f44f9894b26f1d7b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13493109573720c69e2b12722e4a4bbf') in 0.0036994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/hospital_170.asset
+  artifactKey: Guid(9535b5ab451dd4048b66f867c92ee537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_170.asset using Guid(9535b5ab451dd4048b66f867c92ee537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c7b6d10662649b6565e0328fc09da82') in 0.0033156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_185.asset
+  artifactKey: Guid(5ced323766fb8104086492795df927c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_185.asset using Guid(5ced323766fb8104086492795df927c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd1dc15127c679da58eb09fc2752c1f3') in 0.0035996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_192.asset
+  artifactKey: Guid(214782e4e92ebb548ac2df4dce2e5232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_192.asset using Guid(214782e4e92ebb548ac2df4dce2e5232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '541ee1b23f4fd874a9901c523539e3a0') in 0.0030904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_187.asset
+  artifactKey: Guid(24c518450d1528944a89c61cc38259cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_187.asset using Guid(24c518450d1528944a89c61cc38259cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '901588ee830ed564e207861831da2525') in 0.0031344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_211.asset
+  artifactKey: Guid(40c1fb4673ca3b34f859e11032a253a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_211.asset using Guid(40c1fb4673ca3b34f859e11032a253a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d6f3129afd28f9750b4dbfe85fbbcb0') in 0.0031757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_171.asset
+  artifactKey: Guid(66b9557d69a9c4e438ddd31ee39dacd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_171.asset using Guid(66b9557d69a9c4e438ddd31ee39dacd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00e87e28e8a112819bc6bf45f3ebc8c3') in 0.0031028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.798456 seconds.
+  path: Assets/Backgrounds/hospital_328.asset
+  artifactKey: Guid(9edc3f13519250a4bb0e3a0a4b9e7349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_328.asset using Guid(9edc3f13519250a4bb0e3a0a4b9e7349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1b3a1b547b247c81700a1a4caa21923') in 0.0029538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_337.asset
+  artifactKey: Guid(10215f4da71e8ca4d9fae47ab379e027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_337.asset using Guid(10215f4da71e8ca4d9fae47ab379e027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb2f8d9e92a26de07237a343cdd023a1') in 0.0032229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_375.asset
+  artifactKey: Guid(9ad56c1e913725148a6d628205e66160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_375.asset using Guid(9ad56c1e913725148a6d628205e66160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b10452c7a1bc565df10258ca0ce83c7') in 0.0038386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_467.asset
+  artifactKey: Guid(01083f3e7dbca2b4fb3be5a4f7b93ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_467.asset using Guid(01083f3e7dbca2b4fb3be5a4f7b93ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36de349848b7c253860c775b83310ec3') in 0.0033722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_355.asset
+  artifactKey: Guid(1ab5c3952a5330140954ad42fe9bfa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_355.asset using Guid(1ab5c3952a5330140954ad42fe9bfa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8880d0411193473f6a024b05dd538702') in 0.0037915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_360.asset
+  artifactKey: Guid(3d8faf4eeec5a1140a74c3760afb2797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_360.asset using Guid(3d8faf4eeec5a1140a74c3760afb2797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc31dae24ede18363050af740d1c229a') in 0.0033047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_368.asset
+  artifactKey: Guid(8c521c4c760f1354f80ff83359586f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_368.asset using Guid(8c521c4c760f1354f80ff83359586f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33a28e7110eca224f5f3a3f7057e7001') in 0.0040321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/hospital_468.asset
+  artifactKey: Guid(333dac2a4e149d348b96ee5d13ee7107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_468.asset using Guid(333dac2a4e149d348b96ee5d13ee7107) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1258dd781efc6076c14a32080e07848') in 0.0034485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Backgrounds/hospital_458.asset
+  artifactKey: Guid(f5bdcaa9e3439cd449616c238d0664e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_458.asset using Guid(f5bdcaa9e3439cd449616c238d0664e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1489ac91a10d7aadeccd963cbe292aa1') in 0.0076854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_367.asset
+  artifactKey: Guid(107ccbca2e6f84f44b7b47f9592b1cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_367.asset using Guid(107ccbca2e6f84f44b7b47f9592b1cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5cb83164363375eb2eeee1d62049495') in 0.0032493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/hospital_487.asset
+  artifactKey: Guid(445b0f16772556447bf5ab32b62a46fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_487.asset using Guid(445b0f16772556447bf5ab32b62a46fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72a268fb815b97a813091d8a418ca066') in 0.0039992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Backgrounds/hospital_340.asset
+  artifactKey: Guid(4ec8afb823c93834bb78aa4540b8a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_340.asset using Guid(4ec8afb823c93834bb78aa4540b8a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b8d4dbe99fabc44a4646160d25d0910') in 0.0027318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_338.asset
+  artifactKey: Guid(64ef8fa088f63904b8a1e374f97cf5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_338.asset using Guid(64ef8fa088f63904b8a1e374f97cf5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '347f856f0a62292b37c0e111acb28a17') in 0.002703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_354.asset
+  artifactKey: Guid(914828dc4316cf049a5f2472c239e0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_354.asset using Guid(914828dc4316cf049a5f2472c239e0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87b6b19580709a35b67cd1fde7daa3ac') in 0.0028256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_370.asset
+  artifactKey: Guid(d4b6721eef06f374f87aa3e6176d8c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_370.asset using Guid(d4b6721eef06f374f87aa3e6176d8c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b9479c93efcf580ff1f5a9bea4fab15') in 0.0029086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_372.asset
+  artifactKey: Guid(fe15dd1ecebb2d846a99e1841996d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_372.asset using Guid(fe15dd1ecebb2d846a99e1841996d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '188f5bd76000d9d912e4ff94d2781324') in 0.0027953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_387.asset
+  artifactKey: Guid(5d658b3430d6343499799e6807c31629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_387.asset using Guid(5d658b3430d6343499799e6807c31629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f352ff457898c107a1dd169d5d8481d') in 0.0027368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/hospital_393.asset
+  artifactKey: Guid(0cb2ec3d3a4241e4eb9ebc2150db414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_393.asset using Guid(0cb2ec3d3a4241e4eb9ebc2150db414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fe14c77dabfda847351012fd575ec11') in 0.0026565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_351.asset
+  artifactKey: Guid(adb2b1bde12db2c49b61e8de003a794f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_351.asset using Guid(adb2b1bde12db2c49b61e8de003a794f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '066f8e0a569868326bf60fed60035da2') in 0.003489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_350.asset
+  artifactKey: Guid(80e6e6959f1c0d14a870530dc7a469fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_350.asset using Guid(80e6e6959f1c0d14a870530dc7a469fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '866c06dd7482029d823562bac93b74c7') in 0.0033652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_460.asset
+  artifactKey: Guid(4de860814e1ce71428004c4ca6c8eb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_460.asset using Guid(4de860814e1ce71428004c4ca6c8eb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b114bde292b0deeb7361eb0c2bc60da') in 0.0031321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_233.asset
+  artifactKey: Guid(d56ccc53b5d7ef949a20e8847ec59929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_233.asset using Guid(d56ccc53b5d7ef949a20e8847ec59929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9ca419ed75bfe747654150cd94d1c58') in 0.0029658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_245.asset
+  artifactKey: Guid(860172e834d7daf408d17971d79112dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_245.asset using Guid(860172e834d7daf408d17971d79112dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5411eee6b6015c64ec16f321d582f96') in 0.0032129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_263.asset
+  artifactKey: Guid(f83551feabddde44183920ff5ce35b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_263.asset using Guid(f83551feabddde44183920ff5ce35b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93f0795561c56d32fcfa5446f2a31f8e') in 0.0027368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_276.asset
+  artifactKey: Guid(4acc533c643a24f4d977a33a89a45bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_276.asset using Guid(4acc533c643a24f4d977a33a89a45bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '730bbf062b452478643f966b28d73ae3') in 0.003079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_268.asset
+  artifactKey: Guid(6eecc03aa2afce04ab77581cd8fbb743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_268.asset using Guid(6eecc03aa2afce04ab77581cd8fbb743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e87eef7ac119ad90dbcec0caeff49f99') in 0.0029884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_275.asset
+  artifactKey: Guid(9b2d9c8faa4b6b4419b8b14cae68eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_275.asset using Guid(9b2d9c8faa4b6b4419b8b14cae68eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8563cd3a5e73eed32eede9b8bcfb6ff') in 0.0032674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_220.asset
+  artifactKey: Guid(076a5609df3ae02428bd4278e213ec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_220.asset using Guid(076a5609df3ae02428bd4278e213ec96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e19f8b9fa13be94be07c06423b2e4ba1') in 0.003063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_249.asset
+  artifactKey: Guid(ca9495e482c222f4bb2c87dbcaee3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_249.asset using Guid(ca9495e482c222f4bb2c87dbcaee3a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff544dd2fbe3f4feb70e9bf21478ef09') in 0.0033525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_287.asset
+  artifactKey: Guid(2c71a67a5edd80045a2b53485deb13a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_287.asset using Guid(2c71a67a5edd80045a2b53485deb13a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece62fca14836aafb14f09f7e9519aa9') in 0.0027536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_397.asset
+  artifactKey: Guid(91fb26f43e3361242abae8192cdba403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_397.asset using Guid(91fb26f43e3361242abae8192cdba403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0528b421b2c838e77c23ea3e44b687b0') in 0.0027571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_339.asset
+  artifactKey: Guid(5596b5035d64d1849905669778c71685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_339.asset using Guid(5596b5035d64d1849905669778c71685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86e296fca1e654780b4f8eeedc25b3a5') in 0.0027671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_365.asset
+  artifactKey: Guid(f2e862e3632444f4fb9df41974ca14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_365.asset using Guid(f2e862e3632444f4fb9df41974ca14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c7cdb4f4d879f00cc4add9bc38e12d1') in 0.0028539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_351.asset
+  artifactKey: Guid(8391161da15f4d84da130365ab71b57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_351.asset using Guid(8391161da15f4d84da130365ab71b57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f95bcf6df04823072fbcdca79edeab29') in 0.0034966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_462.asset
+  artifactKey: Guid(99e976deb3accfe49a21e929d3d4c69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_462.asset using Guid(99e976deb3accfe49a21e929d3d4c69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd893bf9a19087f33c61226ec8dda4be') in 0.0028114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_492.asset
+  artifactKey: Guid(3914241d64f9157499ecfa815dc0ed92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_492.asset using Guid(3914241d64f9157499ecfa815dc0ed92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b16bb1bebffbf64157f51eea8895e51') in 0.0028052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_196.asset
+  artifactKey: Guid(1057568e5f9f36f44a62af5ceca1c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_196.asset using Guid(1057568e5f9f36f44a62af5ceca1c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5799ec9eb90d9b1ec3aa2044f2dfee2') in 0.0028763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_389.asset
+  artifactKey: Guid(0b2bb237b08d61b409f9dbd7d245d3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_389.asset using Guid(0b2bb237b08d61b409f9dbd7d245d3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b768ed28830e0a0a10356c11b756120') in 0.0027607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_376.asset
+  artifactKey: Guid(bdf3f59256a31b943a334ea283c5caa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_376.asset using Guid(bdf3f59256a31b943a334ea283c5caa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7f9cf5d333482f5e66bb1cfb1a48ce5') in 0.0029242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_269.asset
+  artifactKey: Guid(02b0c873264f3e949af9c2357ba827bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_269.asset using Guid(02b0c873264f3e949af9c2357ba827bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ff58bf753dbb65a78997e647e543123') in 0.0031603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_366.asset
+  artifactKey: Guid(0f9dc52bc11244d4abb907549fe414d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_366.asset using Guid(0f9dc52bc11244d4abb907549fe414d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09b8ea0e4e10811660399d194764eb6b') in 0.0036036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_236.asset
+  artifactKey: Guid(5ee17936553a67b459b7fd1c0cd6a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_236.asset using Guid(5ee17936553a67b459b7fd1c0cd6a45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69f6d9b41494f2fca0f132bba5008a1d') in 0.0031134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_367.asset
+  artifactKey: Guid(682d952aabf877c418aedc31cb90f217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_367.asset using Guid(682d952aabf877c418aedc31cb90f217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '155545123808756b488ba9112d68ae2f') in 0.003103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_271.asset
+  artifactKey: Guid(c071c6466ff516d46a1c7f2abf71fd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_271.asset using Guid(c071c6466ff516d46a1c7f2abf71fd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3a991a90c5ee7022b2ed14417741659') in 0.0025698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_205.asset
+  artifactKey: Guid(f350c542c5cdfc14a9a5651d7f9e0f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_205.asset using Guid(f350c542c5cdfc14a9a5651d7f9e0f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6959c3094003cbd574b8303efbcdb1a6') in 0.0026089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_488.asset
+  artifactKey: Guid(cce54620ae6b6f84181791a9d7feb4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_488.asset using Guid(cce54620ae6b6f84181791a9d7feb4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '430211a2a030c4adec22cc304ce6480a') in 0.0026605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_285.asset
+  artifactKey: Guid(7bf61a82f2d040e4f8c3dfcc77fae265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_285.asset using Guid(7bf61a82f2d040e4f8c3dfcc77fae265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa0ff42a245fa99b8eeaf1afc7908c09') in 0.0027549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_206.asset
+  artifactKey: Guid(0661691a77851a543ad7cf505c3212ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_206.asset using Guid(0661691a77851a543ad7cf505c3212ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c52a6cbd82a574babba3ff561ab6836') in 0.002635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_218.asset
+  artifactKey: Guid(f65b747f4cb1bb447b95bded5bf420e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_218.asset using Guid(f65b747f4cb1bb447b95bded5bf420e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a3877e7c9c5e264f3f06b141e5d4971') in 0.0031854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_240.asset
+  artifactKey: Guid(ed45e263aabcb4b4db61c640d73f972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_240.asset using Guid(ed45e263aabcb4b4db61c640d73f972c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a7177bfe387ddba07fc59f1e5c1d655') in 0.002734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_291.asset
+  artifactKey: Guid(a1d170dd95e2fa94ea962312583b8412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_291.asset using Guid(a1d170dd95e2fa94ea962312583b8412) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddf15531ec3162acd1c002c36bba410c') in 0.0026352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_293.asset
+  artifactKey: Guid(a810656beb77a1846a98443c07278b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_293.asset using Guid(a810656beb77a1846a98443c07278b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6ccc2dc7c44f2d3da2820e9bab8599f') in 0.0034902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_292.asset
+  artifactKey: Guid(5986fb683140d0e41b348ef253c0d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_292.asset using Guid(5986fb683140d0e41b348ef253c0d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9950f87e2c728a7d488ae3c05c03c46d') in 0.0026802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_330.asset
+  artifactKey: Guid(b6bbb7cd20d282d4487b2b5a98c1c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_330.asset using Guid(b6bbb7cd20d282d4487b2b5a98c1c66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5c1b3575c4dd7d342ace1d6ed0e586f') in 0.0028557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_319.asset
+  artifactKey: Guid(c120778b8a0293142bdd86d7f18d4947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_319.asset using Guid(c120778b8a0293142bdd86d7f18d4947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70ac8d71f4b0a2f4a94eac53575f0b7b') in 0.0032662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_327.asset
+  artifactKey: Guid(92dacea3872fcb24c8f6cd06a3499514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_327.asset using Guid(92dacea3872fcb24c8f6cd06a3499514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24c24d87af7de6badc4e5f25a35da390') in 0.0042861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_197.asset
+  artifactKey: Guid(8b3179ea61f4665459a9a05694b265c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_197.asset using Guid(8b3179ea61f4665459a9a05694b265c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd381d9f512ab787443b7c1809eaa6861') in 0.0028108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_321.asset
+  artifactKey: Guid(5e50e4e1507ae5a4cbcfba183160b5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_321.asset using Guid(5e50e4e1507ae5a4cbcfba183160b5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a832a412525979cffbcb7006a982f8a9') in 0.0029368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_304.asset
+  artifactKey: Guid(0c249ebb21c44c5488831d671df2b7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_304.asset using Guid(0c249ebb21c44c5488831d671df2b7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd292ff4bcbcce148726a598b50c48cae') in 0.0042087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_310.asset
+  artifactKey: Guid(bf6a17dd90abb474c97d70a1d35221ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_310.asset using Guid(bf6a17dd90abb474c97d70a1d35221ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b217a20eb7273dc989c84a49cbb186e6') in 0.0041675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_478.asset
+  artifactKey: Guid(4205fe8b9a3dabd4e96cf6d7a0088220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_478.asset using Guid(4205fe8b9a3dabd4e96cf6d7a0088220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b22e67b40717a79a113582e8b0a7bf') in 0.0028763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_390.asset
+  artifactKey: Guid(7bae6b510cca1ae41abd4dc98001e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_390.asset using Guid(7bae6b510cca1ae41abd4dc98001e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '574c1041f130fb1b863c3dfb5ade3075') in 0.0027438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced 1.png
+  artifactKey: Guid(7cb154c9fb5d4b54194b8ba686f76f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced 1.png using Guid(7cb154c9fb5d4b54194b8ba686f76f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e224425fea6d1918b1f79a4e57237f31') in 0.0574526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_359.asset
+  artifactKey: Guid(686886cec21b64647857c9677f4b5b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_359.asset using Guid(686886cec21b64647857c9677f4b5b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1cd6376e9537766481af9adec6d264c') in 0.0029183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_453.asset
+  artifactKey: Guid(f1a7528e803f4d042976d70704c30c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_453.asset using Guid(f1a7528e803f4d042976d70704c30c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56af1aae7e0ed443c9b6c74925b493d7') in 0.0027087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_364.asset
+  artifactKey: Guid(2c65df89ef1071348a58e1f7443d835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_364.asset using Guid(2c65df89ef1071348a58e1f7443d835a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '184fde85b2debfc883415c2282c2ffdc') in 0.0025975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_463.asset
+  artifactKey: Guid(7ae54f9fd8a2fe44e8841446c7991dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_463.asset using Guid(7ae54f9fd8a2fe44e8841446c7991dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc8973f7d5211397906fe98f07ce7aa8') in 0.0031721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_346.asset
+  artifactKey: Guid(ec119e1d21a5a0341866dcb6834c9c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_346.asset using Guid(ec119e1d21a5a0341866dcb6834c9c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27bf3d4044ec331307ec4f02d6a028a0') in 0.0031264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_345.asset
+  artifactKey: Guid(4f0f874cc85e87044ab54ce5c945a6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_345.asset using Guid(4f0f874cc85e87044ab54ce5c945a6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f54b1a71f2dd6b561250bb3a33f8f67') in 0.0028506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/hospital_sprite_sheet_267.asset
+  artifactKey: Guid(a9dee3c7ab4398c4987dd21ced09a89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_sprite_sheet_267.asset using Guid(a9dee3c7ab4398c4987dd21ced09a89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '908dda017bef40693ad9fd462f189e8e') in 0.0030636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_350.asset
+  artifactKey: Guid(a9cbc4bcdab4b12429fa072cd7bdcc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_350.asset using Guid(a9cbc4bcdab4b12429fa072cd7bdcc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c65492287ff62063759bcc24dabcc532') in 0.0027944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced 3.png
+  artifactKey: Guid(d7e1c79461a3e8e4eb898e8f1223a1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced 3.png using Guid(d7e1c79461a3e8e4eb898e8f1223a1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b71e5273760312c8c4606ab691866f7') in 0.0337109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_394.asset
+  artifactKey: Guid(aeafb0986acfc3c4098a60b5d5fe1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_394.asset using Guid(aeafb0986acfc3c4098a60b5d5fe1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe7c21b261e5cf710e0442dda618ed9') in 0.0030658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Backgrounds/hospital_363.asset
+  artifactKey: Guid(959d8bdbc3a3feb4f93263f6da8ffcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_363.asset using Guid(959d8bdbc3a3feb4f93263f6da8ffcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ea9a4f32b8643ad8d9144a224bac814') in 0.0027464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.146539 seconds.
+  path: Assets/Backgrounds/hospital_440.asset
+  artifactKey: Guid(f87c9c9e3feb7334daabf8ecb06b4b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_440.asset using Guid(f87c9c9e3feb7334daabf8ecb06b4b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '563ba4f2485e257a31aa76cba9131112') in 0.0031552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/hospital_450.asset
+  artifactKey: Guid(02ca67f5b9bdbcb4f91fa330ee9c5ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_450.asset using Guid(02ca67f5b9bdbcb4f91fa330ee9c5ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c05549a6691578e69f84ae225e457f4a') in 0.0035354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Backgrounds/hospital_434.asset
+  artifactKey: Guid(3334fd95eb646e543af507f316b06f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_434.asset using Guid(3334fd95eb646e543af507f316b06f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86f9e9d7f409e5008f84ed9d37451c7a') in 0.0028487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Backgrounds/hospital_432.asset
+  artifactKey: Guid(1841e5a64b23b6b40acf606b690cf0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_432.asset using Guid(1841e5a64b23b6b40acf606b690cf0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0017d43e0208bd2953d29839fe3a20ae') in 0.0030302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Backgrounds/hospital_431.asset
+  artifactKey: Guid(2dbac17d50df40c44873aa462243235c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_431.asset using Guid(2dbac17d50df40c44873aa462243235c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eedb49b75295884d0c4c00d028cc790') in 0.003075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_436.asset
+  artifactKey: Guid(f5ff79696a272e24896f55538b25395d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_436.asset using Guid(f5ff79696a272e24896f55538b25395d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd47e81c4dc8c4b7662df984824dc8fb') in 0.0033211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_435.asset
+  artifactKey: Guid(dd41e4fa3b82b854ca8bdcade23e3b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_435.asset using Guid(dd41e4fa3b82b854ca8bdcade23e3b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '912ed8edba59150f76d1a9320327b23e') in 0.0030074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.452870 seconds.
+  path: Assets/Backgrounds/hospital_399.asset
+  artifactKey: Guid(de34ed870ea0b41469da774fea0095d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_399.asset using Guid(de34ed870ea0b41469da774fea0095d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ecf7ca639181003786ce35a9b00ba71') in 0.0038184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/hospital_401.asset
+  artifactKey: Guid(0f4052f923c65794e84cad814f03f3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_401.asset using Guid(0f4052f923c65794e84cad814f03f3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5ffc28166f2084a7e2c66a035efee81') in 0.0050951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_406.asset
+  artifactKey: Guid(96806f241b0f6f1428897ed925353063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_406.asset using Guid(96806f241b0f6f1428897ed925353063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee15fe13af620825d502f481391bc6b7') in 0.0027891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_424.asset
+  artifactKey: Guid(422761642356cdd43bab2687fa18bb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_424.asset using Guid(422761642356cdd43bab2687fa18bb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f39776c4d5dd42b122bc0f45e590e99') in 0.0035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_423.asset
+  artifactKey: Guid(8396ff9dea055f847961f67a50c794d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_423.asset using Guid(8396ff9dea055f847961f67a50c794d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71543e56510ba92862dc55040d9f98a5') in 0.003727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/hospital_417.asset
+  artifactKey: Guid(dd38068eeee70054289b11a9f4503ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_417.asset using Guid(dd38068eeee70054289b11a9f4503ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2965550eca8ef5dbdb55592314464e23') in 0.0035153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_407.asset
+  artifactKey: Guid(1d02110f58391744fa361ace6d8dfd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_407.asset using Guid(1d02110f58391744fa361ace6d8dfd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aad7947dfcfd65f67cf751020538a130') in 0.0029134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_414.asset
+  artifactKey: Guid(1638aeeffdec2d74d9b5f0975c54c03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_414.asset using Guid(1638aeeffdec2d74d9b5f0975c54c03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67671b31242af52469fa87e44c259166') in 0.0032754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Backgrounds/hospital_400.asset
+  artifactKey: Guid(6adc80a86a3caf04ea0bdf9aa5223a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_400.asset using Guid(6adc80a86a3caf04ea0bdf9aa5223a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e38b29952d61f53483017fe342cdf7ee') in 0.0030448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_410.asset
+  artifactKey: Guid(b692eff13cafefa46a712dc0b5c3a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_410.asset using Guid(b692eff13cafefa46a712dc0b5c3a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d609510fa7097dc8cfc67180523c7f3') in 0.0028403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_405.asset
+  artifactKey: Guid(a06e6f48c76585d49972c22dc0d92b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_405.asset using Guid(a06e6f48c76585d49972c22dc0d92b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f0682017995c431be7d65c54883b306') in 0.003143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_415.asset
+  artifactKey: Guid(0ed801ced00c83e48b1e1fdf84f6e8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_415.asset using Guid(0ed801ced00c83e48b1e1fdf84f6e8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ecc9b3ad76dbd1f4e3a7ef9e31c38eb') in 0.0031995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_418.asset
+  artifactKey: Guid(4230301e93f5fe54f8469a2fd8fdb954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_418.asset using Guid(4230301e93f5fe54f8469a2fd8fdb954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef407dbf385d6dd2fe6635fc13b67c29') in 0.0030765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.693572 seconds.
+  path: Assets/Backgrounds/hospital_300.asset
+  artifactKey: Guid(b213a34534895534a891559f497ba666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_300.asset using Guid(b213a34534895534a891559f497ba666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d2e2d116de328d11e14b8e2418087fb') in 0.003851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/hospital_324.asset
+  artifactKey: Guid(d79c630e01972954792382da84f8922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_324.asset using Guid(d79c630e01972954792382da84f8922e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaf15b06307add2a5f7e16058e0620bf') in 0.0034807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_316.asset
+  artifactKey: Guid(69b53971f3a25284d9f6b4b90a321fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_316.asset using Guid(69b53971f3a25284d9f6b4b90a321fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d2b1de06d4de0cf23a39d961f40f98b') in 0.0031579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/hospital_319.asset
+  artifactKey: Guid(943141ac7941f8048b2cec869a99504c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_319.asset using Guid(943141ac7941f8048b2cec869a99504c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78faf0f72591cee0d802457e5dba4f80') in 0.0045233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Backgrounds/hospital_307.asset
+  artifactKey: Guid(45061d0a74a431e4b92ce27312370ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_307.asset using Guid(45061d0a74a431e4b92ce27312370ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd14c9a6e405ec611c41a436cd571d69f') in 0.0038514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/hospital_304.asset
+  artifactKey: Guid(c798df43b5b22a84daae464cf9cbd4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_304.asset using Guid(c798df43b5b22a84daae464cf9cbd4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bfdba9768d40c73128ab006f85842af') in 0.0034657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/hospital_301.asset
+  artifactKey: Guid(fff4cbc7f8e92324d8052c0c3ba51e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_301.asset using Guid(fff4cbc7f8e92324d8052c0c3ba51e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d0c59de6875328d0f2b363ef225ce86') in 0.003838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/hospital_309.asset
+  artifactKey: Guid(0a8ce01295f569a4bbda7019bd780023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_309.asset using Guid(0a8ce01295f569a4bbda7019bd780023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c22adceb5571699287312a32f4382e') in 0.003003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/hospital_312.asset
+  artifactKey: Guid(0b6c2edb393c48543a4e38be61890822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_312.asset using Guid(0b6c2edb393c48543a4e38be61890822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2be617bf369f98c2b54dbae0b566d1a') in 0.002902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_315.asset
+  artifactKey: Guid(ca9b4d91df0c0644980434accf394717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_315.asset using Guid(ca9b4d91df0c0644980434accf394717) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea784bd2895d8d26c09c8cc0540499a2') in 0.0032147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/hospital_314.asset
+  artifactKey: Guid(6992ecc66f4ce1045a1d2ebc9d885f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_314.asset using Guid(6992ecc66f4ce1045a1d2ebc9d885f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ccfb6fb957d4348b67743dab49d4491') in 0.003177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/hospital_321.asset
+  artifactKey: Guid(d88a3a5848863cd4f94f32d6c5b0c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_321.asset using Guid(d88a3a5848863cd4f94f32d6c5b0c863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8edb8ae6c4e69ec53ddf1a20ffde33eb') in 0.0035188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Backgrounds/hospital_303.asset
+  artifactKey: Guid(24d11cbcf53121349abd33aa2d73cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_303.asset using Guid(24d11cbcf53121349abd33aa2d73cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51e6fb8f6be51d7c5254ebedac8ad70d') in 0.0041854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_323.asset
+  artifactKey: Guid(d1e6d17d90af76444bd3a1be2e940812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_323.asset using Guid(d1e6d17d90af76444bd3a1be2e940812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75bcf9e0cc1b5ea3dba1649b1893b95c') in 0.0034309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.228851 seconds.
+  path: Assets/Backgrounds/hospital_134.asset
+  artifactKey: Guid(da383ce7479230c45bc4ebadc00a1216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_134.asset using Guid(da383ce7479230c45bc4ebadc00a1216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b4bea6dfb2a10db16a183e35426172e') in 0.0044001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_156.asset
+  artifactKey: Guid(5db30146dd81060439bf987c376fa670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_156.asset using Guid(5db30146dd81060439bf987c376fa670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca56afbc6cc6b0a6dbcd3d340e5566ff') in 0.0039541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_158.asset
+  artifactKey: Guid(e080e3da01ce6174091751e9d8cc7560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_158.asset using Guid(e080e3da01ce6174091751e9d8cc7560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd79f38ed817a0964ee695fcf4a8f2edd') in 0.0033772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/hospital_148.asset
+  artifactKey: Guid(12495fe24d5acfc4e8039dd44d986803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_148.asset using Guid(12495fe24d5acfc4e8039dd44d986803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ba5e351a49c48d206076b9627893c28') in 0.0037194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_144.asset
+  artifactKey: Guid(5a944398cc2979d40b6a7c83928470b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_144.asset using Guid(5a944398cc2979d40b6a7c83928470b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6519887dd126956a7c009e44987ca0b0') in 0.0037018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Backgrounds/hospital_138.asset
+  artifactKey: Guid(cc5e0ae66e3ace44fbd4a223fee2c0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_138.asset using Guid(cc5e0ae66e3ace44fbd4a223fee2c0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af20fbfffb6e598463d5f620183d0d3f') in 0.0033589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_153.asset
+  artifactKey: Guid(d62d1a1548f6ed445a4e1bc09f2add4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_153.asset using Guid(d62d1a1548f6ed445a4e1bc09f2add4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43ac70c0443eb8a8ef0825e0c7a14908') in 0.0032919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361801 seconds.
+  path: Assets/Backgrounds/hospital_232.asset
+  artifactKey: Guid(946535570fbbdc04a826aa41ae7b9359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_232.asset using Guid(946535570fbbdc04a826aa41ae7b9359) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b9421eca9a118e254a7ed584a3efff2') in 0.0064162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_254.asset
+  artifactKey: Guid(24b0ce461ce3bb34c9aafb3cf614d503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_254.asset using Guid(24b0ce461ce3bb34c9aafb3cf614d503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e04e01ef2ffd990b35491e12520b10b') in 0.0034978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_245.asset
+  artifactKey: Guid(436e704edfe3e4845895013226b5b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_245.asset using Guid(436e704edfe3e4845895013226b5b46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69c286a79fe5f13f11753861199c94dc') in 0.0040962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Backgrounds/hospital_246.asset
+  artifactKey: Guid(289e72406c590694598e3063fe803cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_246.asset using Guid(289e72406c590694598e3063fe803cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '089be3aeb19b476a3b348efd169f72ab') in 0.0032558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_258.asset
+  artifactKey: Guid(a85e479e2960b614e9279f6414018258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_258.asset using Guid(a85e479e2960b614e9279f6414018258) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af8484fadb03e3011bf2d90c81f66f8b') in 0.0034226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_273.asset
+  artifactKey: Guid(247f12dc8a6f862489f0cc213b3e44f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_273.asset using Guid(247f12dc8a6f862489f0cc213b3e44f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80b880c99ca6f1a343fb35c7d7e0e049') in 0.0031256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/hospital_277.asset
+  artifactKey: Guid(2da687da151e369408a394b6c52536bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_277.asset using Guid(2da687da151e369408a394b6c52536bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3afd7b2d93efe0eee838610f6cd8862e') in 0.003568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_285.asset
+  artifactKey: Guid(2c8d33a068758d144bfcf16b0f70d422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_285.asset using Guid(2c8d33a068758d144bfcf16b0f70d422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02736cf182e70b2a33c1fcd2035cb074') in 0.0032556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_295.asset
+  artifactKey: Guid(54904c33bf152134a92b8fe7be900ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_295.asset using Guid(54904c33bf152134a92b8fe7be900ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab970be87f8f4c9cd2fcce759d8775c2') in 0.0035425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Backgrounds/hospital_288.asset
+  artifactKey: Guid(dc2160c3f56def049bcc533a9f4eb8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_288.asset using Guid(dc2160c3f56def049bcc533a9f4eb8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a216f1daf7fa270dcfbeb92b9411d64') in 0.0029821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/hospital_294.asset
+  artifactKey: Guid(7ee28255d8a2f144e9711b44df00832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_294.asset using Guid(7ee28255d8a2f144e9711b44df00832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f51e2aebc6d21a519f901327f88adb6') in 0.0031081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_263.asset
+  artifactKey: Guid(455da9a2c26c8494fbf335fd10cba838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_263.asset using Guid(455da9a2c26c8494fbf335fd10cba838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f7c021269add9095b9e364f2fcb3984') in 0.0027953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_236.asset
+  artifactKey: Guid(f222031e020ca12448b451dc17ec3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_236.asset using Guid(f222031e020ca12448b451dc17ec3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77fc392eff3d416e601c7f669365313b') in 0.0029497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/hospital_252.asset
+  artifactKey: Guid(17e5da88845c8cf47910a51647b015a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_252.asset using Guid(17e5da88845c8cf47910a51647b015a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52c8f50b7c0663496104ea4c16962999') in 0.0032563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_259.asset
+  artifactKey: Guid(9176bdd8ad7336a4fb12288b6c640c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_259.asset using Guid(9176bdd8ad7336a4fb12288b6c640c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a46aa63235a759b7e57e7bd12a3e8b') in 0.0030491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_257.asset
+  artifactKey: Guid(2cb1a2f2eb85c7f408e0e6eaf441cbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_257.asset using Guid(2cb1a2f2eb85c7f408e0e6eaf441cbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c8bb190937190c20f29bcb81e293a28') in 0.0042562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_253.asset
+  artifactKey: Guid(1c1e88d39ae7b5341927e1a18181765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_253.asset using Guid(1c1e88d39ae7b5341927e1a18181765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7897c1a54904b6e396d5a38687029827') in 0.0063319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
