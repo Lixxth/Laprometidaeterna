@@ -44,5 +44,8 @@ TagManager:
   - name: fantasma
     uniqueID: 2169795149
     locked: 0
+  - name: Prota
+    uniqueID: 3600941187
+    locked: 0
   m_RenderingLayers:
   - Default
