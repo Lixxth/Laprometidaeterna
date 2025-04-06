@@ -1516,3 +1516,35 @@ Memory consumption went from 155.4 MB to 149.8 MB.
 Total: 16.859800 ms (FindLiveObjects: 1.251000 ms CreateObjectMapping: 1.699300 ms MarkObjects: 9.093900 ms  DeleteObjects: 4.813500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 333.872362 seconds.
+  path: Assets/Scenes/hospital.jpg
+  artifactKey: Guid(3036cb222e4b7224096c706cc5c89f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/hospital.jpg using Guid(3036cb222e4b7224096c706cc5c89f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38962ce26211e6b2060b6001cf71903c') in 0.1275672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.710734 seconds.
+  path: Assets/Scenes/hospital.jpg
+  artifactKey: Guid(3036cb222e4b7224096c706cc5c89f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/hospital.jpg using Guid(3036cb222e4b7224096c706cc5c89f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31305737e9a7d427b0ee54539518c38d') in 0.0417079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.787231 seconds.
+  path: Assets/Scenes/sotano.jpg
+  artifactKey: Guid(f947a80ebffdb204490112d3265dbb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/sotano.jpg using Guid(f947a80ebffdb204490112d3265dbb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95a0159083c96ca823315565a6f046a4') in 0.0354983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1191.023769 seconds.
+  path: Assets/images
+  artifactKey: Guid(d46d2380b59190c4bb0b47a33fe5a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images using Guid(d46d2380b59190c4bb0b47a33fe5a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be3bcc8a0f225c56cb9b40628bb9a0ae') in 0.0008006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
