@@ -1292,6 +1292,7 @@ MonoBehaviour:
     m_Target: {x: 3.940186, y: 17.599564, z: -2.737725}
     speed: 2
     m_Value: {x: 3.940186, y: 17.599564, z: -2.737725}
+    m_Value: {x: 3.940186, y: 17.599564, z: -2.737725}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1344,6 +1345,7 @@ MonoBehaviour:
     m_Target: 12.896853
     speed: 2
     m_Value: 12.896853
+    m_Value: 12.896853
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1361,6 +1363,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
