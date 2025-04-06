@@ -16,6 +16,13 @@
 
 # Unity3D generated meta files
 *.pidb.meta
+*.log
+
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+
+logs/
+
+logs/AssetImportWorker0.log
+
