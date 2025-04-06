@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Lizbeth\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\lizbeth\\my project\\assets\\scripts\\camaramovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\Lizbeth\\My project\\assets\\scripts\\camaramovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camaramovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\movimientoPersonaje.cs",
               "ToolTip": "C:\\Users\\Lizbeth\\My project\\Assets\\scripts\\movimientoPersonaje.cs",
               "RelativeToolTip": "Assets\\scripts\\movimientoPersonaje.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T04:39:56.988Z",
               "EditorCaption": ""
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\CamaraMovimiento.cs",
               "ToolTip": "C:\\Users\\Lizbeth\\My project\\Assets\\scripts\\CamaraMovimiento.cs",
               "RelativeToolTip": "Assets\\scripts\\CamaraMovimiento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-05T04:39:50.387Z",
               "EditorCaption": ""

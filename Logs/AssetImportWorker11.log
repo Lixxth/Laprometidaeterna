@@ -1,0 +1,847 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.44f1 (101c91f3a8fb) revision 1055889'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 16296 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/Lizbeth/My project
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+52665
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Lizbeth/My project
+C:/Users/Lizbeth/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21500]  Target information:
+
+Player connection [21500]  * "[IP] 10.33.24.75 [Port] 0 [Flags] 2 [Guid] 468724253 [EditorId] 468724253 [Version] 1048832 [Id] WindowsEditor(7,AVISPON-BLANCO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21500] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21500] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lizbeth/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8059 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006736 seconds.
+- Loaded All Assemblies, in  0.488 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.407 seconds
+Domain Reload Profiling: 890ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (407ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.041 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.965 seconds
+Domain Reload Profiling: 1995ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (705ms)
+		LoadAssemblies (491ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (341ms)
+			TypeCache.Refresh (249ms)
+				TypeCache.ScanAssembly (228ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (965ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (779ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (455ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6576 unused Assets / (7.2 MB). Loaded Objects now: 7220.
+Memory consumption went from 175.2 MB to 168.0 MB.
+Total: 12.925800 ms (FindLiveObjects: 1.030900 ms CreateObjectMapping: 0.707200 ms MarkObjects: 6.369400 ms  DeleteObjects: 4.816700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26202.019402 seconds.
+  path: Assets/Backgrounds/sotano.png
+  artifactKey: Guid(6b8d280047e441b4895015838cd05a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano.png using Guid(6b8d280047e441b4895015838cd05a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1f56253e0c59a03f7c3a30607b74aef') in 0.1366838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.559621 seconds.
+  path: Assets/Backgrounds/sotano_bg_2.png
+  artifactKey: Guid(55a9218d0bcb68f4d8cbc5d127afabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2.png using Guid(55a9218d0bcb68f4d8cbc5d127afabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e42a87c688b1c104897d6ca1fab68ea7') in 0.0210883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.831952 seconds.
+  path: Assets/Backgrounds/sotano_bg_2.png
+  artifactKey: Guid(55a9218d0bcb68f4d8cbc5d127afabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2.png using Guid(55a9218d0bcb68f4d8cbc5d127afabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47b51809d9a07f73a9c44220186eed90') in 0.0215468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.931807 seconds.
+  path: Assets/Backgrounds/sotano_bg_2.png
+  artifactKey: Guid(55a9218d0bcb68f4d8cbc5d127afabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2.png using Guid(55a9218d0bcb68f4d8cbc5d127afabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46c50c1c2c8619b1059cb658d3fad64d') in 0.5527877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 258
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.070407 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_0.asset
+  artifactKey: Guid(8ea8af70d7a5c1143843e75dede2a98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_0.asset using Guid(8ea8af70d7a5c1143843e75dede2a98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9eacb8874afc2d9658a31913dada7f9b') in 0.0186922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_9.asset
+  artifactKey: Guid(2dfcb227b881ad3428cba85b52061f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_9.asset using Guid(2dfcb227b881ad3428cba85b52061f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f9b6dfc2df2cf58480ca1b8c57f5b24') in 0.0225003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_15.asset
+  artifactKey: Guid(88b8ddbc776a81c4d86c66346a15446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_15.asset using Guid(88b8ddbc776a81c4d86c66346a15446b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e72113dca4b00157e35c34bff636830') in 0.0200386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_8.asset
+  artifactKey: Guid(43e002a918c621f4b87ad54450eaf454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_8.asset using Guid(43e002a918c621f4b87ad54450eaf454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e99a92132a0be777e65941de4122f62') in 0.0098327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_3.asset
+  artifactKey: Guid(2ff3cf9cfdff9d647ab9b33a16e9a060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_3.asset using Guid(2ff3cf9cfdff9d647ab9b33a16e9a060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1b8b2478b903561e62485480b83788d') in 0.0193222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_24.asset
+  artifactKey: Guid(c66865f917ac1d0499fb0490c06ac707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_24.asset using Guid(c66865f917ac1d0499fb0490c06ac707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bc5205ff1777c3164462b8af969edb7') in 0.0179707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_22.asset
+  artifactKey: Guid(c202fe68ad929254eb3f7751776f1643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_22.asset using Guid(c202fe68ad929254eb3f7751776f1643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cfeb45322d7bce0d15c2ab0ea9e0e06') in 0.018014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_10.asset
+  artifactKey: Guid(443fa6c86d249504993270f6ec8d90d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_10.asset using Guid(443fa6c86d249504993270f6ec8d90d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd069c346dea2022824b8cca44edd66d2') in 0.0156286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_18.asset
+  artifactKey: Guid(056257eadf6bca24dbe25a7ced92e6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_18.asset using Guid(056257eadf6bca24dbe25a7ced92e6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbbae58ca2dd65ccdc0e7a731564acb9') in 0.0187789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_11.asset
+  artifactKey: Guid(ae2f675d8820ef040b3ed360448f22a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_11.asset using Guid(ae2f675d8820ef040b3ed360448f22a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cd19a0d229922452d026b7bbd909a62') in 0.007503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_17.asset
+  artifactKey: Guid(0b4b161a5ffe08245b1786d836672220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_17.asset using Guid(0b4b161a5ffe08245b1786d836672220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9ffa110fd71745a15b2855629c51aaa') in 0.0175884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_23.asset
+  artifactKey: Guid(c07fa109f9180d64aba5692ee287df95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_23.asset using Guid(c07fa109f9180d64aba5692ee287df95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a869945b24e909b99dc7b52216c70aff') in 0.0157257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_19.asset
+  artifactKey: Guid(0db461c868f5d7041bf5509bbd014dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_19.asset using Guid(0db461c868f5d7041bf5509bbd014dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65ba490621126cede8a704eb43ba65db') in 0.016028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_4.asset
+  artifactKey: Guid(b92ce03f9384a664eac1ca7cf42d17af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_4.asset using Guid(b92ce03f9384a664eac1ca7cf42d17af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '620650b3f296832d7597e2fa9cec9126') in 0.0081124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.675572 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_27.asset
+  artifactKey: Guid(45ce86b26d0c0d8448e6cd26ac32e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_27.asset using Guid(45ce86b26d0c0d8448e6cd26ac32e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f7d9a454160fab308d2d7a6fdfa5769') in 0.0180768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_48.asset
+  artifactKey: Guid(814ea5bb2d8711b4b9e36809a3c5b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_48.asset using Guid(814ea5bb2d8711b4b9e36809a3c5b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0d0492ce8b188143622c12895170f16') in 0.0159461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_99.asset
+  artifactKey: Guid(67ffa09147473c840bbeadb24457e229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_99.asset using Guid(67ffa09147473c840bbeadb24457e229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e59749f928dba8edde6022ac2512fd4') in 0.0161615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_81.asset
+  artifactKey: Guid(ae8e6cdca90acac49983bce7ee79b728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_81.asset using Guid(ae8e6cdca90acac49983bce7ee79b728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfa84d98604e2c47da62739c24c46e4a') in 0.0179962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_104.asset
+  artifactKey: Guid(9a8cdd651df13c44da111c8ddc8c951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_104.asset using Guid(9a8cdd651df13c44da111c8ddc8c951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5b7d888d3262e07aa0970974b5f3a5b') in 0.0179768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_79.asset
+  artifactKey: Guid(3f98d335fd3212a4bbbcd52d9714b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_79.asset using Guid(3f98d335fd3212a4bbbcd52d9714b9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '497076465227ddabfe7d74f3ff383f35') in 0.0168966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_73.asset
+  artifactKey: Guid(014b31ca54137624aab39384aa81029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_73.asset using Guid(014b31ca54137624aab39384aa81029c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb67b773f2d808c65ac72ce23bf22f15') in 0.0157629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_124.asset
+  artifactKey: Guid(29cc995851623614580faeb92aa85032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_124.asset using Guid(29cc995851623614580faeb92aa85032) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5136db455918825278d08431bb7921d') in 0.0152846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_222.asset
+  artifactKey: Guid(d225395482d0e6743ab5088bb3d00e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_222.asset using Guid(d225395482d0e6743ab5088bb3d00e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edbc468708f196b0fc212fc1bee61393') in 0.016854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_220.asset
+  artifactKey: Guid(d55feea5f79ebdc409632ad952bf80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_220.asset using Guid(d55feea5f79ebdc409632ad952bf80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2276a6d3c331affc8718abd4c85a7a1d') in 0.0162068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_40.asset
+  artifactKey: Guid(53e3ecca6df6136478f83c4719eb7e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_40.asset using Guid(53e3ecca6df6136478f83c4719eb7e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ab1faac79dd1741a7598fd17ffb55c7') in 0.0177514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_133.asset
+  artifactKey: Guid(afd1ea7dec0a65042a5605a0909f42cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_133.asset using Guid(afd1ea7dec0a65042a5605a0909f42cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '999683cdf796f8eacf146df20b74c8e5') in 0.0179807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_185.asset
+  artifactKey: Guid(9854bfd42939c874587e773329b710a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_185.asset using Guid(9854bfd42939c874587e773329b710a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fe16e33ee5fe39284b16f04d4a38dac') in 0.0166666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_192.asset
+  artifactKey: Guid(687d18b448c452d4a8e2ff04c59db375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_192.asset using Guid(687d18b448c452d4a8e2ff04c59db375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1f50af48f33bc2e46e85277c4817a68') in 0.0187866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_74.asset
+  artifactKey: Guid(d24ea5204f282984ca0b58e91c5c4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_74.asset using Guid(d24ea5204f282984ca0b58e91c5c4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd56f87f1a392474c6fbd9e186d646c52') in 0.0169518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_181.asset
+  artifactKey: Guid(f4e6a0880d4a7f84198dc8c654bfa2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_181.asset using Guid(f4e6a0880d4a7f84198dc8c654bfa2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f109368a2265c8b756434c92bf14e914') in 0.0163049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_98.asset
+  artifactKey: Guid(58c1b7a69e63d324ba333fe526d0d2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_98.asset using Guid(58c1b7a69e63d324ba333fe526d0d2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43ea9f432e42306a791d4fcdce7c48bc') in 0.0200731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_69.asset
+  artifactKey: Guid(f82d664096425a64a8817cb3b594aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_69.asset using Guid(f82d664096425a64a8817cb3b594aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6de7f10288b43eb62ef85d60ec4e6fb') in 0.0162822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_88.asset
+  artifactKey: Guid(a2f92b82df7b193499e2c55582bb9001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_88.asset using Guid(a2f92b82df7b193499e2c55582bb9001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0558a530d59d458c81d7f3523f9f86ad') in 0.0182322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_107.asset
+  artifactKey: Guid(7a2ac6227ac37154d9b46414623c2b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_107.asset using Guid(7a2ac6227ac37154d9b46414623c2b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd20f9a82b05c20c5c37c6a1a3e70d2d4') in 0.0194309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_76.asset
+  artifactKey: Guid(62e42f9fef59c4b40a89caf8040c3fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_76.asset using Guid(62e42f9fef59c4b40a89caf8040c3fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '489880d189f1981b337be457f237fadd') in 0.0184929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_108.asset
+  artifactKey: Guid(e764293d1527e2b4ebb47b5d7701a1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_108.asset using Guid(e764293d1527e2b4ebb47b5d7701a1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10d3f3d3df0b4c5a8a3a96c8e03e3b30') in 0.0164798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_146.asset
+  artifactKey: Guid(d2fb8c1ffe4c9ff4988cec2818d2c135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_146.asset using Guid(d2fb8c1ffe4c9ff4988cec2818d2c135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bc83ebc9d5cf896329de2083d68890c') in 0.0174579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_90.asset
+  artifactKey: Guid(3b0092275683ef84f988091eafa84b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_90.asset using Guid(3b0092275683ef84f988091eafa84b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a53673954abdfabc6b9030407ee3509') in 0.0175209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_66.asset
+  artifactKey: Guid(cfc6a4864a091024f8c789d1ebab3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_66.asset using Guid(cfc6a4864a091024f8c789d1ebab3578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f154619d7a106004b684a78c6b6cd331') in 0.0174524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_189.asset
+  artifactKey: Guid(29b5f4f6bf9d548439ce39bffc43a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_189.asset using Guid(29b5f4f6bf9d548439ce39bffc43a5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f5ac31f2dc8e2d96744c18ed102293') in 0.019026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_83.asset
+  artifactKey: Guid(faaaf5c648695d843ade5bd207871ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_83.asset using Guid(faaaf5c648695d843ade5bd207871ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5e4467e231366939f6a0dc40138200e') in 0.0169235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_176.asset
+  artifactKey: Guid(2aa326a4b241eda4cb7652c497bd9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_176.asset using Guid(2aa326a4b241eda4cb7652c497bd9177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52c945a2d54a6434e2c474140dc6ba40') in 0.0186631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_100.asset
+  artifactKey: Guid(5c9ed99ef348da64f9453e16652f06c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_100.asset using Guid(5c9ed99ef348da64f9453e16652f06c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af7cc7263afd4627215560438fd88909') in 0.0167817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_87.asset
+  artifactKey: Guid(b819f2b6e8e7e9644bdf269ad098bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_87.asset using Guid(b819f2b6e8e7e9644bdf269ad098bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f47d1d84747af9d6c87dd2a921aa986b') in 0.0187871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_166.asset
+  artifactKey: Guid(112d273e875087840a149358aa2b81c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_166.asset using Guid(112d273e875087840a149358aa2b81c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28b2b01c0e7f2c0672c54b4c8024dc1d') in 0.0167104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_158.asset
+  artifactKey: Guid(ffa7db833829a8546b5a9caa155240b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_158.asset using Guid(ffa7db833829a8546b5a9caa155240b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c033ef2896b9dda2371d7ffa020d2f02') in 0.0162975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_230.asset
+  artifactKey: Guid(91220ead1c550664db20ff4a5d8c2177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_230.asset using Guid(91220ead1c550664db20ff4a5d8c2177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6503e58233308a9d9ac3c711e8a56c4') in 0.0156726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_67.asset
+  artifactKey: Guid(37cc46199c3fdc949bc7b9311d82a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_67.asset using Guid(37cc46199c3fdc949bc7b9311d82a8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53f51d40e3fdeddd16136193e86957f0') in 0.0178516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_113.asset
+  artifactKey: Guid(b25f798327dbd584a8bdeff190eb3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_113.asset using Guid(b25f798327dbd584a8bdeff190eb3320) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80f481725a5117087e5993ea0b8940be') in 0.017534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_193.asset
+  artifactKey: Guid(84c2335b0ea4e8140b7ba7d114f80cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_193.asset using Guid(84c2335b0ea4e8140b7ba7d114f80cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e6544505d621492804d2fab01835d5e') in 0.017308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_245.asset
+  artifactKey: Guid(538d1c93e9a4f6a4a9972b42fc538b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_245.asset using Guid(538d1c93e9a4f6a4a9972b42fc538b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb4aab79f93302a053f1497fa8a8b77f') in 0.016146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_178.asset
+  artifactKey: Guid(04f1aad07e513094eb7fc09e5ed952ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_178.asset using Guid(04f1aad07e513094eb7fc09e5ed952ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b99bb92ee8eb3a02a677a987e32b0f9') in 0.0153577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_136.asset
+  artifactKey: Guid(5c6e806a81f30824db0bd2aea8cbd5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_136.asset using Guid(5c6e806a81f30824db0bd2aea8cbd5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bac81158a62e720ff46e050f2d37a234') in 0.0170382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_217.asset
+  artifactKey: Guid(3a38ef75c31ec144e9ddf66603942438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_217.asset using Guid(3a38ef75c31ec144e9ddf66603942438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b30851dd9ea03182232f757eec505f8') in 0.0155477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_203.asset
+  artifactKey: Guid(73c9f7a4666d13a4897dc043a1780dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_203.asset using Guid(73c9f7a4666d13a4897dc043a1780dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc2d5cc30af857ede70276c538e5cab2') in 0.0171375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_32.asset
+  artifactKey: Guid(87f3c3e0b9ff1a844b55da6b4c80360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_32.asset using Guid(87f3c3e0b9ff1a844b55da6b4c80360d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19a300d4505d78bde6808b6fccbadab2') in 0.0154573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_253.asset
+  artifactKey: Guid(0ee6dfe3e0d35af4da0f97c28972ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_253.asset using Guid(0ee6dfe3e0d35af4da0f97c28972ae87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78a43fa35b16254c0cb4a16efc6edac5') in 0.0160014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_242.asset
+  artifactKey: Guid(ac40a7a2294ca5d428de2166131ba642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_242.asset using Guid(ac40a7a2294ca5d428de2166131ba642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e37bb3fed69a71ebfef19844538a2d5d') in 0.0176207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_84.asset
+  artifactKey: Guid(1a1c6eaa53c40ff4cab7c438df65dddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_84.asset using Guid(1a1c6eaa53c40ff4cab7c438df65dddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a67b37360c0507bd90743ed18d6570b5') in 0.0171132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_96.asset
+  artifactKey: Guid(886bb5dcfc8553049bff4663a5f3700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_96.asset using Guid(886bb5dcfc8553049bff4663a5f3700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e36a594560e23d7204740a7084ebe824') in 0.0161235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_147.asset
+  artifactKey: Guid(3ed1db1d8b4584048b8405c63b847b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_147.asset using Guid(3ed1db1d8b4584048b8405c63b847b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf250045b139da4c882ceaaea064f4c') in 0.0175874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_45.asset
+  artifactKey: Guid(0c9354787cebb7d4e8ffc77b7d12ca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_45.asset using Guid(0c9354787cebb7d4e8ffc77b7d12ca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca141a8a38b9054dca8e3ee270198bb2') in 0.0151377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_47.asset
+  artifactKey: Guid(c4a6489461c9f6c4bae3ea1a01eb9154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_47.asset using Guid(c4a6489461c9f6c4bae3ea1a01eb9154) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3768646284454f51faf3238c4cf1dcb5') in 0.0171157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_180.asset
+  artifactKey: Guid(2c8ccaaab33be7c4da3303a2d67e6393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_180.asset using Guid(2c8ccaaab33be7c4da3303a2d67e6393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f0d5392f39e43d70a8da016d0c1ee6b') in 0.0161027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_251.asset
+  artifactKey: Guid(94ae62aa5d99a134fb93688ef6a9d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_251.asset using Guid(94ae62aa5d99a134fb93688ef6a9d5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12407b1c08d1489e0295036499548f01') in 0.0180908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_82.asset
+  artifactKey: Guid(5e320c408cc418b4688d6dcc45cd7352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_82.asset using Guid(5e320c408cc418b4688d6dcc45cd7352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a3ef3b5e5f865b4e0b1f1af46379c5a') in 0.0201035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_80.asset
+  artifactKey: Guid(471af808f231f1949956e6cfa4e6f599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_80.asset using Guid(471af808f231f1949956e6cfa4e6f599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1af2aa1e30dc4519c15ff861a59bc21e') in 0.0160347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_161.asset
+  artifactKey: Guid(525722b4ff794a3448cae794ddcbcf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_161.asset using Guid(525722b4ff794a3448cae794ddcbcf2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '382dbcd6a2a7ad22d484bec09555316f') in 0.01725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_207.asset
+  artifactKey: Guid(1335efa29bf37dc40bd3e4f0f6a08208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_207.asset using Guid(1335efa29bf37dc40bd3e4f0f6a08208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce498b80291a7bd66312848d9258fcf0') in 0.0162615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_174.asset
+  artifactKey: Guid(610120378c7fc5540bb64e85a1081ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_174.asset using Guid(610120378c7fc5540bb64e85a1081ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94071bce2646e7cffdb678a96aeb36e3') in 0.0205028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_112.asset
+  artifactKey: Guid(ed3b612e021b502498518c5a75414060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_112.asset using Guid(ed3b612e021b502498518c5a75414060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b58f12e56420b8d33aff71dde02d110') in 0.0170831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_211.asset
+  artifactKey: Guid(31b40d2d1bf4e1a49ae1e86fce2e3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_211.asset using Guid(31b40d2d1bf4e1a49ae1e86fce2e3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d840ccdda88fa2f245302d261becdb4') in 0.0170543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.761156 seconds.
+  path: Assets/Backgrounds/sotano_bg_2.png
+  artifactKey: Guid(55a9218d0bcb68f4d8cbc5d127afabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2.png using Guid(55a9218d0bcb68f4d8cbc5d127afabb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '123bb7fc416d9e239573db7d0bbc4b42') in 0.6621055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 258
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_18.asset
+  artifactKey: Guid(056257eadf6bca24dbe25a7ced92e6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_18.asset using Guid(056257eadf6bca24dbe25a7ced92e6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85d8689025c4006bb2e51399836c9345') in 0.0074839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_35.asset
+  artifactKey: Guid(458cba86d86bfdc45979567e5ee96e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_35.asset using Guid(458cba86d86bfdc45979567e5ee96e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6d103d19dd0cda215a8b2a040be9165') in 0.0090471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_56.asset
+  artifactKey: Guid(0e067d2611163ce4da095e0ba59f39a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_56.asset using Guid(0e067d2611163ce4da095e0ba59f39a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd30aa3301757d17df224f6c0c558e784') in 0.0084758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_44.asset
+  artifactKey: Guid(05ac9f2c78ddc74478f75a6763f8b726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_44.asset using Guid(05ac9f2c78ddc74478f75a6763f8b726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b630938609db96c40f4597e1c825e9c2') in 0.0082678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_bg_2_31.asset
+  artifactKey: Guid(1c938120b63f29946ac773c7a85f034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_bg_2_31.asset using Guid(1c938120b63f29946ac773c7a85f034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65aa2471dd107c6c829b13dda013eac') in 0.008609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

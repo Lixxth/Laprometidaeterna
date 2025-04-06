@@ -15,7 +15,7 @@ C:/Users/Lizbeth/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51630
+52665
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/Lizbeth/My project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21496]  Target information:
+Player connection [26312]  Target information:
 
-Player connection [21496]  * "[IP] 10.33.24.75 [Port] 0 [Flags] 2 [Guid] 2429004380 [EditorId] 2429004380 [Version] 1048832 [Id] WindowsEditor(7,AVISPON-BLANCO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [26312]  * "[IP] 10.33.24.75 [Port] 0 [Flags] 2 [Guid] 2775293945 [EditorId] 2775293945 [Version] 1048832 [Id] WindowsEditor(7,AVISPON-BLANCO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21496] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21496] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26312] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26312] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.30 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 288.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
@@ -92,45 +92,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007896 seconds.
-- Loaded All Assemblies, in  0.613 seconds
+Registered in 0.513970 seconds.
+- Loaded All Assemblies, in 11.548 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.523 seconds
-Domain Reload Profiling: 1130ms
-	BeginReloadAssembly (226ms)
+- Finished resetting the current domain, in  0.504 seconds
+Domain Reload Profiling: 12046ms
+	BeginReloadAssembly (8928ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (233ms)
-		LoadAssemblies (219ms)
+	RebuildCommonClasses (576ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (586ms)
+	LoadAllAssembliesAndSetupDomain (1437ms)
+		LoadAssemblies (8926ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (228ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (207ms)
+		AnalyzeDomain (1426ms)
+			TypeCache.Refresh (1424ms)
+				TypeCache.ScanAssembly (1123ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (524ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (505ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (459ms)
+		SetupLoadedEditorAssemblies (446ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
+			InitializePlatformSupportModulesInManaged (34ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (240ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,75 +139,1315 @@ Domain Reload Profiling: 1130ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.150 seconds
-Refreshing native plugins compatible for Editor in 3.37 ms, found 4 plugins.
+- Loaded All Assemblies, in 11.244 seconds
+Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.263 seconds
-Domain Reload Profiling: 2401ms
-	BeginReloadAssembly (230ms)
+- Finished resetting the current domain, in  2.556 seconds
+Domain Reload Profiling: 13789ms
+	BeginReloadAssembly (246ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
+		CreateAndSetChildDomain (39ms)
 	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (789ms)
-		LoadAssemblies (580ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (10865ms)
+		LoadAssemblies (10114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (342ms)
-			TypeCache.Refresh (250ms)
-				TypeCache.ScanAssembly (230ms)
-			BuildScriptInfoCaches (74ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1263ms)
+		AnalyzeDomain (898ms)
+			TypeCache.Refresh (799ms)
+				TypeCache.ScanAssembly (717ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2557ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1027ms)
+		SetupLoadedEditorAssemblies (1751ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (198ms)
-			ProcessInitializeOnLoadAttributes (569ms)
-			ProcessInitializeOnLoadMethodAttributes (233ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (645ms)
+			ProcessInitializeOnLoadMethodAttributes (851ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.81 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6576 unused Assets / (7.3 MB). Loaded Objects now: 7220.
-Memory consumption went from 174.7 MB to 167.5 MB.
-Total: 19.538600 ms (FindLiveObjects: 1.255300 ms CreateObjectMapping: 1.874100 ms MarkObjects: 8.859400 ms  DeleteObjects: 7.547200 ms)
+Unloading 6576 unused Assets / (7.2 MB). Loaded Objects now: 7220.
+Memory consumption went from 177.1 MB to 169.9 MB.
+Total: 16.844300 ms (FindLiveObjects: 1.183700 ms CreateObjectMapping: 1.038100 ms MarkObjects: 8.497000 ms  DeleteObjects: 6.123600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16989.256805 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph
-  artifactKey: Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph using Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5088b533e656840859ee8feaa7ba489') in 1.5030069 seconds
+  Time since last request: 23633.393863 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_203.asset
+  artifactKey: Guid(a7035239e22df944991a127516b087cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_203.asset using Guid(a7035239e22df944991a127516b087cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5ac8ef06ffb13d68e3c108fc2d4d057') in 0.1447325 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
-  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe6c84107bd97d77f69f040856c4c1a') in 0.0223567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_179.asset
+  artifactKey: Guid(5f269ce7573c87c4fab0c19cde60955d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_179.asset using Guid(5f269ce7573c87c4fab0c19cde60955d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26c9561eafbe56b9fc143f4251ee1362') in 0.0181921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
-  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0022e4a2b9a7eaf519aca7dea132b501') in 0.0096258 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000040 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_162.asset
+  artifactKey: Guid(5a07655b349c600429f88d79fd786a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_162.asset using Guid(5a07655b349c600429f88d79fd786a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6282504c33df32a5882dfef76d927ca4') in 0.0264799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_193.asset
+  artifactKey: Guid(0256cefccf8fc8a43a162df216791304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_193.asset using Guid(0256cefccf8fc8a43a162df216791304) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4303c9f04f1ed51ad9055ce8c911d2a') in 0.0267511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_197.asset
+  artifactKey: Guid(b90b1aedeadeb3d4bb8c86d6f3caceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_197.asset using Guid(b90b1aedeadeb3d4bb8c86d6f3caceea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '748a0b4bc539d5ffed59f4e6dd24aec9') in 0.0251452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_217.asset
+  artifactKey: Guid(c3ddc756e25dd5b49b0e43f68bd0932f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_217.asset using Guid(c3ddc756e25dd5b49b0e43f68bd0932f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11bc209a3528679b47ff84c2902e026b') in 0.0270926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_232.asset
+  artifactKey: Guid(bc6b3a293f98f3a4db71e43f12342607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_232.asset using Guid(bc6b3a293f98f3a4db71e43f12342607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88fa345580366ff7c05f3ef522a80474') in 0.0268525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_159.asset
+  artifactKey: Guid(9bcc75f048feb2c46a75b4d46126682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_159.asset using Guid(9bcc75f048feb2c46a75b4d46126682d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8128b5cf67b1fa0ca7c6be2ebde9f289') in 0.0283207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_163.asset
+  artifactKey: Guid(9b870c7114b49d941b21cec1f44c227c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_163.asset using Guid(9b870c7114b49d941b21cec1f44c227c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9698f54a617ba67ca5a502a6c317081d') in 0.0290135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_184.asset
+  artifactKey: Guid(9474fdeecf4a65840b8f2c94e6321389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_184.asset using Guid(9474fdeecf4a65840b8f2c94e6321389) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5347685aa8186c4c914a3d60135b52f6') in 0.0257866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_201.asset
+  artifactKey: Guid(78047b059fc55e4418da579c1c75974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_201.asset using Guid(78047b059fc55e4418da579c1c75974a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8fa6e02a37e0c125117b1a38c0cc428') in 0.0273166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_229.asset
+  artifactKey: Guid(9fdbd0ce982c56a429b6ac040b1f8706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_229.asset using Guid(9fdbd0ce982c56a429b6ac040b1f8706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba0846dc1cb4dcdf729c637cd4334b46') in 0.0164405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_211.asset
+  artifactKey: Guid(ec63fbb082de59b499dc3447bcb220c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_211.asset using Guid(ec63fbb082de59b499dc3447bcb220c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67e022527a9afdc29cbbf5c03661af12') in 0.0166384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_173.asset
+  artifactKey: Guid(8a32721fa43313e4c9fa56e1dee2e928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_173.asset using Guid(8a32721fa43313e4c9fa56e1dee2e928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90f48421e9006549ba798c4e0126df10') in 0.0253584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_219.asset
+  artifactKey: Guid(ca3835532be3c55418cf405857ca226b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_219.asset using Guid(ca3835532be3c55418cf405857ca226b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8758efc825940d44afac16b300712179') in 0.0247222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_155.asset
+  artifactKey: Guid(f1372d32f9934f5498e977fbcc8f2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_155.asset using Guid(f1372d32f9934f5498e977fbcc8f2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50744b734c8c97dbc4fae89771ed4076') in 0.0181496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_195.asset
+  artifactKey: Guid(c6106cb4ce9b891448ed0ce5ba88c7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_195.asset using Guid(c6106cb4ce9b891448ed0ce5ba88c7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53661885950168933a2a5c770b52d09c') in 0.0261419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_216.asset
+  artifactKey: Guid(bbe1d40962d126644a82814ebcda9144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_216.asset using Guid(bbe1d40962d126644a82814ebcda9144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f6baac483e01d4233d65d03726f9993') in 0.0253417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_220.asset
+  artifactKey: Guid(8c90a94f25b7e214694c1e3f135e9258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_220.asset using Guid(8c90a94f25b7e214694c1e3f135e9258) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890bb46381212186df822acb737e0295') in 0.0274874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_230.asset
+  artifactKey: Guid(22475ea2c2ef03942ae143cc067d988f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_230.asset using Guid(22475ea2c2ef03942ae143cc067d988f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd52f6f7bc474aee9c2e56b4b7b209854') in 0.0247221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1465.116035 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_235.asset
+  artifactKey: Guid(c95ee7c6813645843b0132f54e163976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_235.asset using Guid(c95ee7c6813645843b0132f54e163976) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13990a2f3a31b71a47872e7b255c08aa') in 0.0369644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_239.asset
+  artifactKey: Guid(4c23b87535253fa40a26f9d1a4e7f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_239.asset using Guid(4c23b87535253fa40a26f9d1a4e7f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0c0500c6bd93c52eb7ecfe73ff3a7bb') in 0.0217167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_240.asset
+  artifactKey: Guid(db8deec2af5fcfa4996734598cf20177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_240.asset using Guid(db8deec2af5fcfa4996734598cf20177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51d9e2097ea2aadceb4bf7eee9340832') in 0.0225619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_242.asset
+  artifactKey: Guid(e74e3c9ffe6e1d24196b2be111e72052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_242.asset using Guid(e74e3c9ffe6e1d24196b2be111e72052) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5962468cf18acc6315d7b4619cbfd42') in 0.0270189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_248.asset
+  artifactKey: Guid(5fbbb630b1a9b944c988763d537f5f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_248.asset using Guid(5fbbb630b1a9b944c988763d537f5f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac1ecfb7f8a4da3c266d15f5208776c5') in 0.0270635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_252.asset
+  artifactKey: Guid(5355f444c8fdb754cbabfa42a4ccdd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_252.asset using Guid(5355f444c8fdb754cbabfa42a4ccdd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71c511b014bdec9e2431acc280138b24') in 0.0231358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_241.asset
+  artifactKey: Guid(665060d504e81a04fb2ae8d68537a621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_241.asset using Guid(665060d504e81a04fb2ae8d68537a621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef5aea96f8b2f93adb2bd38f102a37ff') in 0.0231244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_250.asset
+  artifactKey: Guid(c97d00fb3293df844b966c68e98b81b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_250.asset using Guid(c97d00fb3293df844b966c68e98b81b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854231515576ef1989852b5470053652') in 0.0249307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_236.asset
+  artifactKey: Guid(71130e0ac44f28f44bb9d821088cf320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_236.asset using Guid(71130e0ac44f28f44bb9d821088cf320) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e48ba77a455c0c06f8fe792deca402a6') in 0.0240316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_255.asset
+  artifactKey: Guid(dea6c2b2d9295914a9267541e170e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_255.asset using Guid(dea6c2b2d9295914a9267541e170e08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf3e54d2c0b82a983fdf8f10ac2944b5') in 0.023998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/Hopital_abandonado_253.asset
+  artifactKey: Guid(688c084510519954e90478aa5b2bb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/Hopital_abandonado_253.asset using Guid(688c084510519954e90478aa5b2bb7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdfd0afa8e35d83abf1c1918c60a73e4') in 0.0263876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.593394 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_85.asset
+  artifactKey: Guid(ddc00e9626d6c00429bc01e33d17e9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_85.asset using Guid(ddc00e9626d6c00429bc01e33d17e9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f004820393129c2cfaa5a7c7b22ee99') in 0.0040804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_92.asset
+  artifactKey: Guid(9611f3f6fbf02624abac8e6a86f1f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_92.asset using Guid(9611f3f6fbf02624abac8e6a86f1f4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1da3c5478c5bac546ff86e5080681898') in 0.003973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_86.asset
+  artifactKey: Guid(06789238e7d25e24dbc8123bb40640dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_86.asset using Guid(06789238e7d25e24dbc8123bb40640dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34f4c11474797d5f6d2a107030a2b4d5') in 0.0038251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_101.asset
+  artifactKey: Guid(64d26ca05e2eaea42a144fe0230f3c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_101.asset using Guid(64d26ca05e2eaea42a144fe0230f3c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00fb9c0b6b4c7d3251e5c3787853af21') in 0.0036621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_119.asset
+  artifactKey: Guid(ec831564bd2c53b48a8909c9e230ab5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_119.asset using Guid(ec831564bd2c53b48a8909c9e230ab5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c29b702a823c859dde900382bfffadd5') in 0.003017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_130.asset
+  artifactKey: Guid(6118e3922ce5e4b49b68d9a6e155f942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_130.asset using Guid(6118e3922ce5e4b49b68d9a6e155f942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaf0dee5d74bd4d5b71bc1f32acb31ac') in 0.0028695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_146.asset
+  artifactKey: Guid(b47802f4584f4fb47a3dd3df45fd8529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_146.asset using Guid(b47802f4584f4fb47a3dd3df45fd8529) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e40d4e0fc5334fe8a324d4f0a91a889c') in 0.0028544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_142.asset
+  artifactKey: Guid(c576645dee690ef4aa7cfc6f7acd54bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_142.asset using Guid(c576645dee690ef4aa7cfc6f7acd54bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f35488258ef3d1d57cd87a9731907952') in 0.0039396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_165.asset
+  artifactKey: Guid(ebf7fe2d7c81a0441af265b8591122bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_165.asset using Guid(ebf7fe2d7c81a0441af265b8591122bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9313c9c16a87fa6420af8ffbfe63b56') in 0.0040057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_120.asset
+  artifactKey: Guid(cf1452d4cb6c9eb4ea3219251858e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_120.asset using Guid(cf1452d4cb6c9eb4ea3219251858e27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '905d6cf48843d0fafe93b397f6739c3b') in 0.0031837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_98.asset
+  artifactKey: Guid(ad7d44800709b0843be57107a0297b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_98.asset using Guid(ad7d44800709b0843be57107a0297b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '817bab4daceec663341eee6f1add6154') in 0.0037344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_135.asset
+  artifactKey: Guid(3ac6d2b601e2db9488e5e00c51f780c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_135.asset using Guid(3ac6d2b601e2db9488e5e00c51f780c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef0500e9d12d0eefbbc2e1bb8f9c1e76') in 0.0038184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_136.asset
+  artifactKey: Guid(87814057351085544ab03d66a592085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_136.asset using Guid(87814057351085544ab03d66a592085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2999a2c293a159f7880d4cb71951660') in 0.0040583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_102.asset
+  artifactKey: Guid(51b7cfa49da4cc24995d8a643c5f967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_102.asset using Guid(51b7cfa49da4cc24995d8a643c5f967f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6451ecad86e5d64b45f9def9149414c') in 0.0039697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_114.asset
+  artifactKey: Guid(5744f84b580b94348a6a35b274d2177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_114.asset using Guid(5744f84b580b94348a6a35b274d2177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c57e30fd3084a122ac25a1e1908692e') in 0.0025813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_157.asset
+  artifactKey: Guid(a847090a850c95045989dbba996afc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_157.asset using Guid(a847090a850c95045989dbba996afc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a16f24bed7f5fabd5d5a52d8176297c1') in 0.0028618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_128.asset
+  artifactKey: Guid(f1583db92d3cb84408b8dc440ffd3cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_128.asset using Guid(f1583db92d3cb84408b8dc440ffd3cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbd7db53aea0088197785deccf99ab2f') in 0.0028402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_166.asset
+  artifactKey: Guid(e6e873a924062b741a629b977fffaaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_166.asset using Guid(e6e873a924062b741a629b977fffaaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00fb7f89ef43a474ecf33dfc8fd2cddf') in 0.0037104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_133.asset
+  artifactKey: Guid(1485fc77dffcb664ca273f041a4a0b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_133.asset using Guid(1485fc77dffcb664ca273f041a4a0b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c054a817382c7352db6ca4ea6d2be7a') in 0.002756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_132.asset
+  artifactKey: Guid(b9bb0026e3dc58e43b90ff1978ac7bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_132.asset using Guid(b9bb0026e3dc58e43b90ff1978ac7bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85de081cde6d469bee6df17f5d00635c') in 0.0029783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_106.asset
+  artifactKey: Guid(42f02940b3cbe49448c38f50cf627ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_106.asset using Guid(42f02940b3cbe49448c38f50cf627ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd472131b42e176ee313efbc96af6914a') in 0.0031611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_156.asset
+  artifactKey: Guid(953d457f2e8525b47a1b787e0f567fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_156.asset using Guid(953d457f2e8525b47a1b787e0f567fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05d938496fb5fe951743002b5a20d7f3') in 0.0031987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_131.asset
+  artifactKey: Guid(73cfcc90b5ae6b947bba4502108f4c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_131.asset using Guid(73cfcc90b5ae6b947bba4502108f4c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2d1fb431e31b0c23a93bf698f4ac8cb') in 0.0032027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_147.asset
+  artifactKey: Guid(1b90522fbe5fa1848b9090fabfef41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_147.asset using Guid(1b90522fbe5fa1848b9090fabfef41b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffb33b7db6cbfcacedc56e99651e31d2') in 0.002736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_149.asset
+  artifactKey: Guid(e9fceb35202895948a14d721cb077b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_149.asset using Guid(e9fceb35202895948a14d721cb077b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec6529f27fe17066066e1b7a082f86bc') in 0.0027212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_99.asset
+  artifactKey: Guid(662c4e85194e1e5498a3a4d792864867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_99.asset using Guid(662c4e85194e1e5498a3a4d792864867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a931e746b063e3e14e043031b2720c5') in 0.0029458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_107.asset
+  artifactKey: Guid(31a1a6d7096655c4099661c59ade487d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_107.asset using Guid(31a1a6d7096655c4099661c59ade487d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '552cedda4a60f90cabca89f50fe267f9') in 0.0027094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_97.asset
+  artifactKey: Guid(929f865445c7c2044921531a39923ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_97.asset using Guid(929f865445c7c2044921531a39923ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70f7a746b8e734b3e6296a9000ef9655') in 0.0028334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_161.asset
+  artifactKey: Guid(554218e610bb0b0438dd65f982408195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_161.asset using Guid(554218e610bb0b0438dd65f982408195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '026537ecc8ea11268cc9a7a7d7ac830d') in 0.0032582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_134.asset
+  artifactKey: Guid(8e61b709655ba0242a90dca599ee5084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_134.asset using Guid(8e61b709655ba0242a90dca599ee5084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7be1ae21ae7ad2bf3c41038f2aa66c83') in 0.0035907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.394050 seconds.
+  path: Assets/Backgrounds/sotano.png
+  artifactKey: Guid(6b8d280047e441b4895015838cd05a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano.png using Guid(6b8d280047e441b4895015838cd05a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d9548e3b7fba1e95d7f5bd27e156c3c') in 0.0497257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.803223 seconds.
+  path: Assets/Backgrounds/sotano.png
+  artifactKey: Guid(6b8d280047e441b4895015838cd05a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano.png using Guid(6b8d280047e441b4895015838cd05a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44efc54591df3a28a6d640e9f50c951e') in 0.5176526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 258
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.095516 seconds.
+  path: Assets/Backgrounds/sotano_0.asset
+  artifactKey: Guid(6ed590984a98c1c459a8698561c47745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_0.asset using Guid(6ed590984a98c1c459a8698561c47745) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29b0a43a5660f827726e65a3f5d5e570') in 0.0254136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Backgrounds/sotano_15.asset
+  artifactKey: Guid(f041b9f6cba1fe84e8b71f2048c6cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_15.asset using Guid(f041b9f6cba1fe84e8b71f2048c6cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20e9693d453f4cad197ca90a19860554') in 0.0219019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_4.asset
+  artifactKey: Guid(99954e3373f2834468e358ef00de6bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_4.asset using Guid(99954e3373f2834468e358ef00de6bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b878d35ab4a682aab98f9a0ba376c40') in 0.0179666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_10.asset
+  artifactKey: Guid(8aa5e62d4071cb245bee790c32a99ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_10.asset using Guid(8aa5e62d4071cb245bee790c32a99ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62a3955964c820b226be8ec14302e41e') in 0.0182455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/sotano_11.asset
+  artifactKey: Guid(9211177dd2811f14abbe10a4eb66ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_11.asset using Guid(9211177dd2811f14abbe10a4eb66ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a793bc3a5c47977f4123aa83abfcfbc2') in 0.0200991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_5.asset
+  artifactKey: Guid(bea1ae46736cbb74d954784bf65084aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_5.asset using Guid(bea1ae46736cbb74d954784bf65084aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fe12c427d9d2a88b44e1f37813814ef') in 0.0162234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_13.asset
+  artifactKey: Guid(019a1fa59317ace418857b2a6d555483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_13.asset using Guid(019a1fa59317ace418857b2a6d555483) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ba509275e52ec5bfa50c7fdc4f2ff29') in 0.0182921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_9.asset
+  artifactKey: Guid(f03079e7f1fa21747841504237c749a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_9.asset using Guid(f03079e7f1fa21747841504237c749a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52dd0add37f0b850a8e98a56407e9142') in 0.0180109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/sotano_16.asset
+  artifactKey: Guid(ee6ead3fb171f2e41ac56a25bf05cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_16.asset using Guid(ee6ead3fb171f2e41ac56a25bf05cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b81e4e8c4bb3d736071b557c0c1e0fd') in 0.0172832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.054660 seconds.
+  path: Assets/Backgrounds/sotano_0.asset
+  artifactKey: Guid(6ed590984a98c1c459a8698561c47745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_0.asset using Guid(6ed590984a98c1c459a8698561c47745) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f96efaf2552f24e48f747e8fd79207b9') in 0.0032825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_15.asset
+  artifactKey: Guid(f041b9f6cba1fe84e8b71f2048c6cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_15.asset using Guid(f041b9f6cba1fe84e8b71f2048c6cc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cb8e9ad5289cdabb50ace76166cf83b') in 0.0040318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Backgrounds/sotano_7.asset
+  artifactKey: Guid(5b8b1503010f97844bee43d58845715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_7.asset using Guid(5b8b1503010f97844bee43d58845715b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36bc2c65e581d815bd9e3ea0fe06dff3') in 0.0032343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_11.asset
+  artifactKey: Guid(9211177dd2811f14abbe10a4eb66ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_11.asset using Guid(9211177dd2811f14abbe10a4eb66ddd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab5d8a042f92ce6e6fd1d0488e002114') in 0.0031054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_8.asset
+  artifactKey: Guid(6a442d80ece79764da33b5c6b9ee87d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_8.asset using Guid(6a442d80ece79764da33b5c6b9ee87d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1775780cdc9941b561e0e077fa39c273') in 0.0031802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_17.asset
+  artifactKey: Guid(cff43faf4528f1241882234783073321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_17.asset using Guid(cff43faf4528f1241882234783073321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d16848de08a1283adf860482c6f67be') in 0.0029039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.992716 seconds.
+  path: Assets/Backgrounds/sotano_19.asset
+  artifactKey: Guid(d886c9ac94add71458792c3ad75a78c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_19.asset using Guid(d886c9ac94add71458792c3ad75a78c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '627c6829c4e2275803236a8efcbaf0b7') in 0.0032516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/sotano_32.asset
+  artifactKey: Guid(d800c8fc658cace4b893b570031aab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_32.asset using Guid(d800c8fc658cace4b893b570031aab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '946801c20770c44d28a9c2b8076fd559') in 0.0029862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Backgrounds/sotano_23.asset
+  artifactKey: Guid(3a39473b23dbba94ab5a2d69e5d81cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_23.asset using Guid(3a39473b23dbba94ab5a2d69e5d81cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37cd844b9a5c14b579b65f870ad834ab') in 0.0034614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_34.asset
+  artifactKey: Guid(ec800fa04cf01454889cb0605180e3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_34.asset using Guid(ec800fa04cf01454889cb0605180e3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25072656d019648660a3ec49ae390f4d') in 0.0031019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_42.asset
+  artifactKey: Guid(da915dbc55a314e4d89bce8160b12586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_42.asset using Guid(da915dbc55a314e4d89bce8160b12586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a04c2e2364f3e99bff8cf2d54d986d9') in 0.0030382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_38.asset
+  artifactKey: Guid(7c740f11b1eb9da47a5a29ff7a5498e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_38.asset using Guid(7c740f11b1eb9da47a5a29ff7a5498e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9d4c9223731f30bd7533792c90d2c3b') in 0.0031892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/sotano_31.asset
+  artifactKey: Guid(53c65b652fed8c14384ae79f36ea57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_31.asset using Guid(53c65b652fed8c14384ae79f36ea57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bd21d4f25237e061c8470078c68a0c8') in 0.0030199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.412867 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_169.asset
+  artifactKey: Guid(1037d117dc458b946b592962cb62f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_169.asset using Guid(1037d117dc458b946b592962cb62f7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ef19c16401139adcf735a62975d2814') in 0.0028296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_172.asset
+  artifactKey: Guid(c0126aeae5bac2b459f89467a0de160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_172.asset using Guid(c0126aeae5bac2b459f89467a0de160b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50f9145ae2851f92dc022f54ebc73ab0') in 0.0031395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_177.asset
+  artifactKey: Guid(b4248c4944990b14da305b331ce876cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_177.asset using Guid(b4248c4944990b14da305b331ce876cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccef102fbc8c97e848b8df3848d87b52') in 0.0031694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_182.asset
+  artifactKey: Guid(06e7b69390213ab4da60617f36a1168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_182.asset using Guid(06e7b69390213ab4da60617f36a1168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b978640fe244e956d5edc25cb6b2a20') in 0.003346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_185.asset
+  artifactKey: Guid(659b2c179b3d4df42974179152236a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_185.asset using Guid(659b2c179b3d4df42974179152236a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed00f9b153c3512119ea9f4a4c651e38') in 0.003179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_197.asset
+  artifactKey: Guid(5420cc24ff400d14b9cc7ecaa687871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_197.asset using Guid(5420cc24ff400d14b9cc7ecaa687871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd61200cca0599435bd50baeb6b4133d') in 0.0029217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_194.asset
+  artifactKey: Guid(7ff02e7e8dd32a041af08e52c49bc010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_194.asset using Guid(7ff02e7e8dd32a041af08e52c49bc010) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29e285f87874f5f7b477f5fbe1ab2c36') in 0.0032246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_211.asset
+  artifactKey: Guid(c13e32d5e8cc4f74eb8b9ef0db060814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_211.asset using Guid(c13e32d5e8cc4f74eb8b9ef0db060814) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d3c8cfde5a15ba35e181b21b7f57538') in 0.0030247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_221.asset
+  artifactKey: Guid(5f964b099abcdf84ca8ea477ca6247db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_221.asset using Guid(5f964b099abcdf84ca8ea477ca6247db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78c9e2eef5070f0ce630198ad104789a') in 0.0033348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_231.asset
+  artifactKey: Guid(3bcb9bf91fcfd9d47830ccba4ca3878a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_231.asset using Guid(3bcb9bf91fcfd9d47830ccba4ca3878a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03349070feb38bddbd3782136c85e2cf') in 0.0030496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_241.asset
+  artifactKey: Guid(cca9218f48ca0af4aabefefdcbbd9e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_241.asset using Guid(cca9218f48ca0af4aabefefdcbbd9e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02084db37527df5c0547fb6886aaf4fb') in 0.0029663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_247.asset
+  artifactKey: Guid(78553b4b7ac73ed45aea8aabe0cf97a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_247.asset using Guid(78553b4b7ac73ed45aea8aabe0cf97a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '640031b44d5de5c2cf3649ce7716b2e9') in 0.0031177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_251.asset
+  artifactKey: Guid(d8aad0e4487e4454a8f526ab9e727685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_251.asset using Guid(d8aad0e4487e4454a8f526ab9e727685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac318c7383ef8d214a16bcbbcd91882c') in 0.0028412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_245.asset
+  artifactKey: Guid(f6178202ac648dd43ba6cb29190f8912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_245.asset using Guid(f6178202ac648dd43ba6cb29190f8912) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0545536f88f01016b4af0d00be373111') in 0.0036715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_223.asset
+  artifactKey: Guid(b447ea998b64de24a86785b22b213059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_223.asset using Guid(b447ea998b64de24a86785b22b213059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44d04e99c94ec414bbed26c484e08e00') in 0.00311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_235.asset
+  artifactKey: Guid(5104116dc9bfb4d4a863ad4606a3fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_235.asset using Guid(5104116dc9bfb4d4a863ad4606a3fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3826c8c3dba20bcc4d2810025334af06') in 0.0030089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Backgrounds/sotano_47.asset
+  artifactKey: Guid(22d46d4e8cfa08f4ea26da9706a01851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_47.asset using Guid(22d46d4e8cfa08f4ea26da9706a01851) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ee2a73f7b85d8513652f16a12132fb2') in 0.0029657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_118.asset
+  artifactKey: Guid(fa2f359e875d7f7498987cc2fd195f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_118.asset using Guid(fa2f359e875d7f7498987cc2fd195f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b04f73fd909eb76ec87bd9beaba5cdbf') in 0.0037765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_143.asset
+  artifactKey: Guid(ad32928b94eec4d42bf26bf50ac11dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_143.asset using Guid(ad32928b94eec4d42bf26bf50ac11dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5411ff1a6d301ad2b7dbc2d4c39744b4') in 0.002935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_182.asset
+  artifactKey: Guid(4016c9a6d0e410e49b14b048bd21de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_182.asset using Guid(4016c9a6d0e410e49b14b048bd21de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31941b44f26a9bb87acc83d202e746ab') in 0.0030554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/sotano_203.asset
+  artifactKey: Guid(8764d0e016452a84a874c9405d1adfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_203.asset using Guid(8764d0e016452a84a874c9405d1adfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ec967fb0616a06c118bb375376ff400') in 0.0030024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_214.asset
+  artifactKey: Guid(c945270e7df13d74f81a922d736aeda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_214.asset using Guid(c945270e7df13d74f81a922d736aeda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd596c13b5159bcfb3fa9a8edc0486392') in 0.0031498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Backgrounds/sotano_246.asset
+  artifactKey: Guid(b3408d557ec2c644eb7f3177ef37bb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_246.asset using Guid(b3408d557ec2c644eb7f3177ef37bb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b63d5c80ee47bfdd14f74399a27925a') in 0.0032919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_236.asset
+  artifactKey: Guid(011f7db9b0dab474fb5484687f5b769a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_236.asset using Guid(011f7db9b0dab474fb5484687f5b769a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6020d515140bfdc387dee081c5663341') in 0.0027726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_252.asset
+  artifactKey: Guid(8527f5d40dfb8a148a9a6de3c78eb563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_252.asset using Guid(8527f5d40dfb8a148a9a6de3c78eb563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '813f41a4b4b5d82d0f9418a516c490c7') in 0.0029626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_137.asset
+  artifactKey: Guid(e26e8442a437cc141b31c0ab5604a050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_137.asset using Guid(e26e8442a437cc141b31c0ab5604a050) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b20cfc7f970ec3528867d67f231ae3c7') in 0.0028524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/sotano_83.asset
+  artifactKey: Guid(ac1569d2255503742b809695e6b5175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_83.asset using Guid(ac1569d2255503742b809695e6b5175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac26a187e5b8f5613ba41ccc595a2b38') in 0.0034669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/sotano_78.asset
+  artifactKey: Guid(4dbf6d2447c5ff149bc1fafcb92187bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_78.asset using Guid(4dbf6d2447c5ff149bc1fafcb92187bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3be66172c152a373a7bb5432f511fefe') in 0.0032315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/sotano_166.asset
+  artifactKey: Guid(a43b2686dce775044a1e65dce9b99b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_166.asset using Guid(a43b2686dce775044a1e65dce9b99b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b3c4d092fd512baf3d174678e021972') in 0.0043329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/sotano_111.asset
+  artifactKey: Guid(45d4ca9b366fa4041b9b1394f9b4b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_111.asset using Guid(45d4ca9b366fa4041b9b1394f9b4b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7927a365e0eb453bf8cf3898476c741b') in 0.0038171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/sotano_121.asset
+  artifactKey: Guid(2d981a052dc80694dbae2bf481fc77eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_121.asset using Guid(2d981a052dc80694dbae2bf481fc77eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74da78bd55b8db82933b07b4055d9985') in 0.0031338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_106.asset
+  artifactKey: Guid(449407d2db811ea489d23034031f017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_106.asset using Guid(449407d2db811ea489d23034031f017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28406b41f8b81f808a7b3913013fac7f') in 0.0032343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/sotano_50.asset
+  artifactKey: Guid(35a53ae071c049e4d90879336e5796dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_50.asset using Guid(35a53ae071c049e4d90879336e5796dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd0fe1fd5a1ac0ac0fa2814373d46a05') in 0.0034548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/sotano_204.asset
+  artifactKey: Guid(4b870f3a73e30ea42916cbcb1a70ada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_204.asset using Guid(4b870f3a73e30ea42916cbcb1a70ada1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b293233b229796daf8693e78eb92f107') in 0.0031031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_218.asset
+  artifactKey: Guid(df042f20cac94ce46b33a7d7bdbcb39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_218.asset using Guid(df042f20cac94ce46b33a7d7bdbcb39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '988b22b527385e304e589fdf379bee1b') in 0.0038935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backgrounds/sotano_197.asset
+  artifactKey: Guid(15964107d39736841961a6b2f916e9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_197.asset using Guid(15964107d39736841961a6b2f916e9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40b355afd49df91fe412f6836e0f5ba0') in 0.0033866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_215.asset
+  artifactKey: Guid(1b0d2de7f7a1b4d42a2a4de9b2669315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_215.asset using Guid(1b0d2de7f7a1b4d42a2a4de9b2669315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec909eb871979c937df56e5334a19fe1') in 0.0034659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Backgrounds/sotano_196.asset
+  artifactKey: Guid(76216d48dadc08a4d8a6c01d9db46cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_196.asset using Guid(76216d48dadc08a4d8a6c01d9db46cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17d69f01592be46c4d846bc97a06963d') in 0.0028778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backgrounds/sotano_49.asset
+  artifactKey: Guid(c8c32d99ee3830546bb9f3c91fb5c34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_49.asset using Guid(c8c32d99ee3830546bb9f3c91fb5c34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1063647cbbe88ca0ebc37259c57c1055') in 0.0036116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_238.asset
+  artifactKey: Guid(4c29228550e891b48a47cd3da6ae8af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_238.asset using Guid(4c29228550e891b48a47cd3da6ae8af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0713e21263e2cacd9cdefe7fe8beb9e8') in 0.0040471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Backgrounds/sotano.png
+  artifactKey: Guid(6b8d280047e441b4895015838cd05a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano.png using Guid(6b8d280047e441b4895015838cd05a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1c9ed0032e5d56ab3c83920394b4ba5') in 0.025441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_179.asset
+  artifactKey: Guid(cc6e2e08b66f943409a382ae099bb0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_179.asset using Guid(cc6e2e08b66f943409a382ae099bb0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c23bcccf7b6accdc98648faa96cf67d1') in 0.0034612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_238.asset
+  artifactKey: Guid(cb9d0a756c92ee345bf02fc355ccdf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_238.asset using Guid(cb9d0a756c92ee345bf02fc355ccdf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e166532b7059ee0553b6d4e5f53c7727') in 0.0033555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_241.asset
+  artifactKey: Guid(0970cbabf54edc440af1adf0ebd00fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_241.asset using Guid(0970cbabf54edc440af1adf0ebd00fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a490af37256ec43c06b772a5e40f4cd') in 0.0030073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_117.asset
+  artifactKey: Guid(a6db7aaacb7307841bc4bfc8e1369bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_117.asset using Guid(a6db7aaacb7307841bc4bfc8e1369bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cca136c4b8612abdd53916e245b6afc') in 0.0033897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Backgrounds/sotano_113.asset
+  artifactKey: Guid(eec0bfd5ab971014394ecc36bf9a978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_113.asset using Guid(eec0bfd5ab971014394ecc36bf9a978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ff35837c7e75922c648195ac0a4df5d') in 0.0033691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Backgrounds/sotano_110.asset
+  artifactKey: Guid(84fd670bbf313f346a9355435e424d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_110.asset using Guid(84fd670bbf313f346a9355435e424d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc390f3454e9ebc3bbc07bed2551d027') in 0.0043978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_226.asset
+  artifactKey: Guid(6ce1ec74543fc46429fd7c8401c6b0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_226.asset using Guid(6ce1ec74543fc46429fd7c8401c6b0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '634440fa7e9a200a5772110af8069eb0') in 0.0034719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_88.asset
+  artifactKey: Guid(28bcd27ced6582a4988a1fb34341f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_88.asset using Guid(28bcd27ced6582a4988a1fb34341f61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aace2b8f3f6d6aad6c357fe773d461bb') in 0.0044669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_177.asset
+  artifactKey: Guid(c1fd65645d39f4441b1e1b4905733b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_177.asset using Guid(c1fd65645d39f4441b1e1b4905733b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06502d60d6c17c87ff9c4864bbfb0adc') in 0.0031811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_213.asset
+  artifactKey: Guid(6cbccc74b806bd04995b593e3d888de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_213.asset using Guid(6cbccc74b806bd04995b593e3d888de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2f6ec8aba829e71e333d5c5ade005ad') in 0.0029894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Backgrounds/sotano_105.asset
+  artifactKey: Guid(aeb347f8381930c4d860d8b5a55d3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_105.asset using Guid(aeb347f8381930c4d860d8b5a55d3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02695a2b61894a3e970c5c9a664ec99c') in 0.0030336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Backgrounds/sotano_165.asset
+  artifactKey: Guid(b45b3c83f3ea444438f22f1359910300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_165.asset using Guid(b45b3c83f3ea444438f22f1359910300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e97d9a7c5e15abb9e5810f1538a3e086') in 0.0029319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_162.asset
+  artifactKey: Guid(f83428b33f1f96c43bede3af4be81352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_162.asset using Guid(f83428b33f1f96c43bede3af4be81352) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd341adc71122351559b53dc7e95b43d5') in 0.0039101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_186.asset
+  artifactKey: Guid(b8cd9aebc675248478e0b3f4a795977b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_186.asset using Guid(b8cd9aebc675248478e0b3f4a795977b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '839ec9d326c7193c59b3caecac35b9aa') in 0.0030868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_171.asset
+  artifactKey: Guid(635d2116766fcad4d8e69d8cc900b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_171.asset using Guid(635d2116766fcad4d8e69d8cc900b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cdf2fa004ad72e7ae82d77c147ae750') in 0.0029392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_89.asset
+  artifactKey: Guid(20130fda40864cf4489213e5963e9a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_89.asset using Guid(20130fda40864cf4489213e5963e9a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08c114598366a7e85f42a48984b25a8f') in 0.0031345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Backgrounds/sotano_218.asset
+  artifactKey: Guid(6fb6f765aa9c67f4190fb252918088fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_218.asset using Guid(6fb6f765aa9c67f4190fb252918088fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '040e6ed41c4efea41236023619cc311d') in 0.0028088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Backgrounds/sotano_164.asset
+  artifactKey: Guid(5ab1cdebd24318b4ea3489439694c365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_164.asset using Guid(5ab1cdebd24318b4ea3489439694c365) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8535fc4eda21b71f4aef33a63139d17d') in 0.0037252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Backgrounds/sotano_220.asset
+  artifactKey: Guid(c14567fba23c82541831700f11d450b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_220.asset using Guid(c14567fba23c82541831700f11d450b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38451fb34399deb69b7eb934aa8193f5') in 0.0029212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_196.asset
+  artifactKey: Guid(f98bb90abe744ed4597c04f4779cdc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_196.asset using Guid(f98bb90abe744ed4597c04f4779cdc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '625652a57f0d7d48eb9695ff8842aa22') in 0.0030108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/sotano_209.asset
+  artifactKey: Guid(87a6eb0ea113cb942a36de49368dc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_209.asset using Guid(87a6eb0ea113cb942a36de49368dc34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7a77543034be99f16fe7269f277002d') in 0.0028425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Backgrounds/sotano_98.asset
+  artifactKey: Guid(46e09fb317f61eb4582e75819054c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_98.asset using Guid(46e09fb317f61eb4582e75819054c1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95ca1389e218274100fff3a5c6596850') in 0.0035626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Backgrounds/sotano_122.asset
+  artifactKey: Guid(c4f267b431021a94fa60ea55ea9ed3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_122.asset using Guid(c4f267b431021a94fa60ea55ea9ed3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '234d3885a0bae3d03b145108e2286d1c') in 0.0042296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Backgrounds/sotano_80.asset
+  artifactKey: Guid(2e749030a0905cb478fbfd8a4a286afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_80.asset using Guid(2e749030a0905cb478fbfd8a4a286afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f80e4bdcbde016f5e3c491be1d0ade3') in 0.0034239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Backgrounds/hospital_bg_enhanced_207.asset
+  artifactKey: Guid(0625c99f18110f4448b9e5f28d0a62d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/hospital_bg_enhanced_207.asset using Guid(0625c99f18110f4448b9e5f28d0a62d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88bd8bd6759c6f3a9437eb11cf6686bf') in 0.0034765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_253.asset
+  artifactKey: Guid(672db34d19d91a843afe9f2ebfe9f6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_253.asset using Guid(672db34d19d91a843afe9f2ebfe9f6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cd92f5a53c23f212a8a0f2ba860075d') in 0.0029436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Backgrounds/sotano_193.asset
+  artifactKey: Guid(23b9cd32468742447a5fc2e95a2b310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_193.asset using Guid(23b9cd32468742447a5fc2e95a2b310f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c0fd86eab4b8e05456704afe08f383e') in 0.0035448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Backgrounds/sotano_73.asset
+  artifactKey: Guid(c157a92f18ea4264181455fe64f66e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_73.asset using Guid(c157a92f18ea4264181455fe64f66e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c879f734aa7698dbd8c85168f9597860') in 0.0030255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Backgrounds/sotano_225.asset
+  artifactKey: Guid(f63ad5e1fb57de647a534133ecd19bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_225.asset using Guid(f63ad5e1fb57de647a534133ecd19bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a1456fa9676090125b4fa9daf9aef7c') in 0.0030776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816655 seconds.
+  path: Assets/Backgrounds/sotano_55.asset
+  artifactKey: Guid(bf37d54274af5784c9b7949fc0598b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_55.asset using Guid(bf37d54274af5784c9b7949fc0598b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99332d2b32638a6d31e7ccef1cd8a1be') in 0.0036429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Backgrounds/sotano_60.asset
+  artifactKey: Guid(4fc9b657b38797643b4280328f2286c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_60.asset using Guid(4fc9b657b38797643b4280328f2286c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dee29408c97ecb3e357d822a5ac55e44') in 0.0029341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Backgrounds/sotano_62.asset
+  artifactKey: Guid(fc30fd2a5b1b2864bab78a3883c2c62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backgrounds/sotano_62.asset using Guid(fc30fd2a5b1b2864bab78a3883c2c62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b293f2a83f965a1918652f1085966b55') in 0.003002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

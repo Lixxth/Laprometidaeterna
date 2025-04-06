@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class NewEmptyCSharpScript : MonoBehaviour
+public class CamaraMovimiento : MonoBehaviour
 {
 
     public Transform target; // El objeto al que la cámara seguirá
